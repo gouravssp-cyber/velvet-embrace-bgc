@@ -24,13 +24,12 @@ const Navbar = () => {
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, delay: 0.3 }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled ? "bg-background/90 backdrop-blur-md border-b border-border/30" : "bg-transparent"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled ? "bg-background/90 backdrop-blur-md border-b border-border/30" : "bg-transparent"
+        }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 md:px-12">
         <a href="#" className="text-2xl font-display italic text-foreground">
-          Élite
+          ( ๏ 人 ๏ ) <span className="gold-gradient-text">Call Girl in Dehradun</span>
         </a>
 
         {/* Desktop links */}
@@ -45,7 +44,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="#contact"
+            href="tel:+918057744241"
             className="border border-primary px-6 py-2.5 text-xs tracking-luxury uppercase font-body text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
           >
             Book Now
@@ -76,8 +75,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="#contact"
-            onClick={() => setOpen(false)}
+            href="tel:+918057744241"
             className="mt-3 block border border-primary px-6 py-3 text-center text-xs tracking-luxury uppercase font-body text-primary"
           >
             Book Now

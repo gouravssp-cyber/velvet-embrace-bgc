@@ -6,6 +6,8 @@ import ExperienceSection from "@/components/ExperienceSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import CTASection from "@/components/CTASection";
 import FooterSection from "@/components/FooterSection";
+import SeoSection from "@/components/SeoSection";
+import FloatingCallAction from "@/components/FloatingCallAction";
 
 const Index = () => {
   return (
@@ -15,9 +17,11 @@ const Index = () => {
       <AboutSection />
       <CompanionsSection />
       <ExperienceSection />
+      <SeoSection />
       <TestimonialsSection />
       <CTASection />
       <FooterSection />
+      <FloatingCallAction />
     </main>
   );
 };

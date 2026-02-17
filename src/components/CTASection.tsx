@@ -50,29 +50,14 @@ const CTASection = () => {
           className="flex flex-col sm:flex-row gap-4 justify-center mb-10"
         >
           <a
-            href="#"
+            href="tel:+918057744241"
             className="border border-primary bg-primary px-10 py-4 text-sm font-body tracking-luxury uppercase text-primary-foreground transition-all duration-300 hover:bg-gold-dark inline-flex items-center justify-center gap-3"
           >
             Book Now
           </a>
         </motion.div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.5 }}
-          className="flex justify-center gap-6"
-        >
-          <a href="#" className="flex items-center gap-2 text-sm font-body text-muted-foreground hover:text-primary transition-colors">
-            <MessageCircle className="h-4 w-4" />
-            WhatsApp
-          </a>
-          <a href="#" className="flex items-center gap-2 text-sm font-body text-muted-foreground hover:text-primary transition-colors">
-            <Send className="h-4 w-4" />
-            Telegram
-          </a>
-        </motion.div>
+
       </div>
     </section>
   );

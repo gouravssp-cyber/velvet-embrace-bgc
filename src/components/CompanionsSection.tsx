@@ -1,18 +1,43 @@
 import { motion } from "framer-motion";
-import companion1 from "@/assets/companion-1.jpg";
-import companion2 from "@/assets/companion-2.jpg";
-import companion3 from "@/assets/companion-3.jpg";
-import companion4 from "@/assets/companion-4.jpg";
-import companion5 from "@/assets/companion-5.jpg";
-import companion6 from "@/assets/companion-6.jpg";
+import companion1 from "@/assets/companion/img01.jpeg";
+import companion2 from "@/assets/companion/img02.webp";
+import companion3 from "@/assets/companion/img03.webp";
+import companion4 from "@/assets/companion/img04.webp";
+import companion5 from "@/assets/companion/img05.jpg";
+import companion6 from "@/assets/companion/img06.webp";
+import companion7 from "@/assets/companion/img07.jpg";
+import companion8 from "@/assets/companion/img08.jpg";
+import companion9 from "@/assets/companion/img09.webp";
+import companion10 from "@/assets/companion/img10.jpg";
+import companion11 from "@/assets/companion/img11.jpg";
+import companion12 from "@/assets/companion/img12.webp";
+import companion13 from "@/assets/companion/img13.jpg";
+import companion14 from "@/assets/companion/img14.webp";
+import companion15 from "@/assets/companion/img15.jpg";
+import companion16 from "@/assets/companion/img16.jpg";
+import companion17 from "@/assets/companion/img17.webp";
+import companion18 from "@/assets/companion/img18.jpg";
+import companion19 from "@/assets/companion/img19.jpg";
 
 const companions = [
-  { name: "Valentina", age: 24, location: "Milan", img: companion1 },
-  { name: "Scarlett", age: 26, location: "London", img: companion2 },
-  { name: "Isabella", age: 23, location: "Paris", img: companion3 },
-  { name: "Natasha", age: 27, location: "Monaco", img: companion4 },
-  { name: "Emerald", age: 25, location: "Dubai", img: companion5 },
-  { name: "Aurelia", age: 22, location: "New York", img: companion6 },
+  { name: "Priya", age: 24, location: "Dehradun", img: companion1 },
+  { name: "Kavya", age: 23, location: "Dehradun", img: companion3 },
+  { name: "Neha", age: 26, location: "Dehradun", img: companion4 },
+  { name: "Pooja", age: 22, location: "Dehradun", img: companion5 },
+  { name: "Divya", age: 27, location: "Dehradun", img: companion6 },
+  { name: "Meera", age: 24, location: "Dehradun", img: companion7 },
+  { name: "Isha", age: 23, location: "Dehradun", img: companion8 },
+  { name: "Sakshi", age: 25, location: "Dehradun", img: companion9 },
+  { name: "Ritika", age: 28, location: "Dehradun", img: companion10 },
+  { name: "Shreya", age: 26, location: "Dehradun", img: companion11 },
+  { name: "Deepika", age: 24, location: "Dehradun", img: companion2 },
+  { name: "Ananya", age: 22, location: "Dehradun", img: companion13 },
+  { name: "Swati", age: 27, location: "Dehradun", img: companion14 },
+  { name: "Radhika", age: 25, location: "Dehradun", img: companion15 },
+  { name: "Trisha", age: 23, location: "Dehradun", img: companion16 },
+  { name: "Veena", age: 26, location: "Dehradun", img: companion17 },
+  { name: "Yasmin", age: 24, location: "Dehradun", img: companion18 },
+  { name: "Zara", age: 28, location: "Dehradun", img: companion19 },
 ];
 
 const CompanionsSection = () => {
@@ -55,6 +80,7 @@ const CompanionsSection = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: i * 0.1 }}
               className="group relative overflow-hidden cursor-pointer"
+              onClick={() => window.location.href = "tel:+918057744241"}
             >
               <div className="aspect-[3/4] overflow-hidden">
                 <img
@@ -70,9 +96,9 @@ const CompanionsSection = () => {
                   <p className="text-sm tracking-luxury uppercase text-primary font-body mb-1">{c.location}</p>
                   <h3 className="text-2xl font-display italic text-foreground">{c.name}, {c.age}</h3>
                   <div className="mt-4 gold-line" />
-                  <p className="mt-3 text-sm tracking-luxury uppercase text-primary font-body hover:text-gold-light transition-colors">
+                  <a href="tel:+918057744241"  className="mt-3 text-sm tracking-luxury uppercase text-primary font-body hover:text-gold-light transition-colors">
                     View Details →
-                  </p>
+                  </a>
                 </div>
               </div>
               {/* Always visible name bar */}

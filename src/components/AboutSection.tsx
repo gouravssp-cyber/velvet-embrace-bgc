@@ -2,10 +2,26 @@ import { motion } from "framer-motion";
 import { Shield, Star, Clock, CheckCircle } from "lucide-react";
 
 const features = [
-  { icon: Shield, title: "Absolute Discretion", desc: "Your privacy is our highest priority. Every encounter is confidential." },
-  { icon: Star, title: "Elite Selection", desc: "Hand-picked companions of exceptional beauty, charm, and sophistication." },
-  { icon: Clock, title: "24/7 Availability", desc: "Our concierge service is available around the clock for your convenience." },
-  { icon: CheckCircle, title: "Verified Profiles", desc: "Every profile is personally verified to guarantee an authentic experience." },
+  { 
+    icon: Shield, 
+    title: "Complete Privacy & Discretion", 
+    desc: "We prioritize your confidentiality with secure communication, discreet listings, and private booking options designed for adults seeking absolute privacy." 
+  },
+  { 
+    icon: Star, 
+    title: "Curated Premium Listings", 
+    desc: "Explore a refined selection of independent companions and agency profiles, carefully presented to ensure quality, elegance, and authenticity." 
+  },
+  { 
+    icon: Clock, 
+    title: "Easy & Flexible Booking", 
+    desc: "Browse profiles anytime and connect directly through streamlined contact options for seamless scheduling and personalized arrangements." 
+  },
+  { 
+    icon: CheckCircle, 
+    title: "Verified & Detailed Profiles", 
+    desc: "Each listing features comprehensive details, clear photos, and verified information to help you make confident and informed choices." 
+  },
 ];
 
 const AboutSection = () => {
@@ -19,7 +35,7 @@ const AboutSection = () => {
           transition={{ duration: 0.6 }}
           className="mb-4 text-sm tracking-luxury uppercase text-primary font-body"
         >
-          Why Choose Us
+          Why Choose BabyCallGirl.com
         </motion.p>
 
         <motion.h2
@@ -29,7 +45,7 @@ const AboutSection = () => {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="mb-4 text-4xl md:text-5xl font-display italic font-light text-foreground"
         >
-          An Experience Like No Other
+          A Refined Adult Companion Directory
         </motion.h2>
 
         <motion.div
@@ -47,8 +63,10 @@ const AboutSection = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="mx-auto mb-16 max-w-2xl text-lg font-serif font-light text-muted-foreground leading-relaxed"
         >
-          We curate only the finest companions — women of extraordinary beauty, intelligence, and grace.
-          Every detail is designed to deliver an unforgettable, world-class experience.
+          BabyCallGirl.com serves as a premium escort listing platform connecting adults with 
+          sophisticated companion profiles across various cities and regions. 
+          Whether you are seeking independent call girl listings or agency-based companions, 
+          our platform is structured to provide clarity, discretion, and an elevated browsing experience.
         </motion.p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
