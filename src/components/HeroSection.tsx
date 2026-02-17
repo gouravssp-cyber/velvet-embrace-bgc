@@ -75,9 +75,9 @@ const HeroSection = () => {
           className="mb-6 text-5xl md:text-7xl lg:text-8xl font-display italic font-light leading-tight"
         >
           <span className="gold-gradient-text">Discover</span>{" "}
-          <span className="text-foreground">Elite</span>
+          <span className="text-foreground">Dehradun's</span>
           <br />
-          <span className="text-foreground">Companionship</span>
+          <span className="text-foreground">Elite Escorts</span>
         </motion.h1>
 
         <motion.p
@@ -86,8 +86,8 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.9 }}
           className="mb-10 max-w-lg text-lg font-light text-muted-foreground font-serif tracking-wide"
         >
-          BabyCallGirl.com connects adults with exclusive companion profiles, 
-          featuring verified listings, discreet booking options, and premium 
+          BabyCallGirl.com connects adults with exclusive companion profiles,
+          featuring verified listings, discreet booking options, and premium
           escort services tailored for sophisticated private experiences.
         </motion.p>
 
