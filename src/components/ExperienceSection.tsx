@@ -1,0 +1,87 @@
+import { motion } from "framer-motion";
+import experienceBg from "@/assets/experience-bg.jpg";
+import { Gem, Wine, Globe, Heart } from "lucide-react";
+
+const experiences = [
+  { icon: Wine, text: "Private dinner companionship" },
+  { icon: Globe, text: "Travel & getaway partners" },
+  { icon: Gem, text: "VIP event accompaniment" },
+  { icon: Heart, text: "Personalized luxury experiences" },
+];
+
+const ExperienceSection = () => {
+  return (
+    <section className="relative overflow-hidden" id="experience">
+      <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[80vh]">
+        {/* Image side */}
+        <div className="relative h-[50vh] lg:h-auto">
+          <img
+            src={experienceBg}
+            alt="Luxury experience"
+            className="absolute inset-0 h-full w-full object-cover"
+            loading="lazy"
+          />
+          <div className="absolute inset-0 bg-background/30" />
+        </div>
+
+        {/* Content side */}
+        <div className="flex items-center bg-background section-padding">
+          <div className="max-w-lg">
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="mb-4 text-sm tracking-luxury uppercase text-primary font-body"
+            >
+              The Experience
+            </motion.p>
+            <motion.h2
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.1 }}
+              className="mb-4 text-4xl md:text-5xl font-display italic font-light text-foreground leading-tight"
+            >
+              Beyond the Ordinary
+            </motion.h2>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.2 }}
+              className="gold-line-wide mb-8"
+            />
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.3 }}
+              className="mb-10 text-lg font-serif font-light text-muted-foreground leading-relaxed"
+            >
+              Our companions are more than beautiful — they are cultured, multilingual, and impeccably presented.
+              Whether for an intimate evening or a grand occasion, every moment is crafted to perfection.
+            </motion.p>
+
+            <div className="space-y-6">
+              {experiences.map((e, i) => (
+                <motion.div
+                  key={e.text}
+                  initial={{ opacity: 0, x: -20 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: 0.4 + i * 0.1 }}
+                  className="flex items-center gap-4 group"
+                >
+                  <e.icon className="h-5 w-5 text-primary flex-shrink-0" />
+                  <span className="text-base font-body font-light text-secondary-foreground">{e.text}</span>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default ExperienceSection;
