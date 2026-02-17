@@ -1,21 +1,27 @@
-import { motion } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 import { ChevronDown } from "lucide-react";
+import { useRef } from "react";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
+  const ref = useRef<HTMLElement>(null);
+  const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });
+  const y = useTransform(scrollYProgress, [0, 1], ["0%", "30%"]);
+  const opacity = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
+
   return (
-    <section className="relative h-screen w-full overflow-hidden">
-      <div className="absolute inset-0">
+    <section ref={ref} className="relative h-screen w-full overflow-hidden">
+      <motion.div className="absolute inset-0" style={{ y }}>
         <img
           src={heroBg}
           alt="Luxury interior"
-          className="h-full w-full object-cover"
+          className="h-[130%] w-full object-cover"
           loading="eager"
         />
         <div className="luxury-overlay absolute inset-0" />
-      </div>
+      </motion.div>
 
-      <div className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center">
+      <motion.div style={{ opacity }} className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center">
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -65,7 +71,7 @@ const HeroSection = () => {
             View Companions
           </a>
         </motion.div>
-      </div>
+      </motion.div>
 
       <motion.div
         initial={{ opacity: 0 }}

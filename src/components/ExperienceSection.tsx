@@ -1,4 +1,5 @@
-import { motion } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
+import { useRef } from "react";
 import experienceBg from "@/assets/experience-bg.jpg";
 import { Gem, Wine, Globe, Heart } from "lucide-react";
 
@@ -10,15 +11,20 @@ const experiences = [
 ];
 
 const ExperienceSection = () => {
+  const ref = useRef<HTMLElement>(null);
+  const { scrollYProgress } = useScroll({ target: ref, offset: ["start end", "end start"] });
+  const imgY = useTransform(scrollYProgress, [0, 1], ["-10%", "10%"]);
+
   return (
-    <section className="relative overflow-hidden" id="experience">
+    <section ref={ref} className="relative overflow-hidden" id="experience">
       <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[80vh]">
         {/* Image side */}
-        <div className="relative h-[50vh] lg:h-auto">
-          <img
+        <div className="relative h-[50vh] lg:h-auto overflow-hidden">
+          <motion.img
             src={experienceBg}
             alt="Luxury experience"
-            className="absolute inset-0 h-full w-full object-cover"
+            className="absolute inset-0 h-[120%] w-full object-cover"
+            style={{ y: imgY }}
             loading="lazy"
           />
           <div className="absolute inset-0 bg-background/30" />
