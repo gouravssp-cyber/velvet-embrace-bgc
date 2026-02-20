@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
 import { Phone, MessageCircle, Mail } from "lucide-react";
-import dehradunEscortImg from "@/assets/companion-2.jpg"; // ← Replace with your actual image path or a CDN URL
-import dehradunEscortImg1 from "@/assets/companion-3.jpg"; // ← Replace with your actual image path or a CDN URL
+import dehradunEscortImg from "@/assets/imghot.jpg"; // ← Replace with your actual image path or a CDN URL
+import dehradunEscortImg1 from "@/assets/images.jpg"; // ← Replace with your actual image path or a CDN URL
 import dehradunEscortImg2 from "@/assets/companion-4.jpg"; // ← Replace with your actual image path or a CDN URL
-import dehradunEscortImg3 from "@/assets/companion-5.jpg"; // ← Replace with your actual image path or a CDN URL
-import dehradunEscortImg4 from "@/assets/companion-6.jpg"; // ← Replace with your actual image path or a CDN URL
-import dehradunEscortImg5 from "@/assets/companion-1.jpg"; // ← Replace with your actual image path or a CDN URL
+import dehradunEscortImg3 from "@/assets/indiansexygirl.jpg"; // ← Replace with your actual image path or a CDN URL
+import dehradunEscortImg4 from "@/assets/images.jpg"; // ← Replace with your actual image path or a CDN URL
+import dehradunEscortImg5 from "@/assets/kym53.jpg"; // ← Replace with your actual image path or a CDN URL
 
 const SeoSection = () => {
     return (

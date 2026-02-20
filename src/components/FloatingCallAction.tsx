@@ -1,5 +1,6 @@
 import { Phone } from "lucide-react";
 import { useState, useEffect } from "react";
+import whatsappIcon from "@/assets/whatsapp-svgrepo-com.svg";
 
 const FloatingCallAction = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -20,17 +21,28 @@ const FloatingCallAction = () => {
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12 pointer-events-none"
       }`}
     >
-      <a
-        href="tel:+1234567890"
-        className="flex items-center justify-center w-14 h-14 bg-gradient-to-r from-primary to-gold-dark text-white rounded-full shadow-lg hover:shadow-2xl transition-all duration-300 group hover:scale-110 active:scale-95"
-        title="Call us"
-        aria-label="Call us"
-      >
-        <Phone className="w-6 h-6 group-hover:animate-pulse" />
-      </a>
+      <div className="flex flex-col items-center gap-3">
+        <div className="relative">
+          <a
+            href="tel:+1234567890"
+            className="flex items-center justify-center w-14 h-14 bg-gradient-to-r from-primary to-gold-dark text-white rounded-full shadow-lg hover:shadow-2xl transition-all duration-300 group hover:scale-110 active:scale-95"
+            title="Call us"
+            aria-label="Call us"
+          >
+            <Phone className="w-6 h-6 group-hover:animate-pulse" />
+          </a>
+          <div className="absolute inset-0 rounded-full bg-primary/20 animate-pulse" />
+        </div>
 
-      {/* Pulse animation ring */}
-      <div className="absolute inset-0 rounded-full bg-primary/20 animate-pulse" />
+        <a
+          href="https://api.whatsapp.com/send?phone=918057744241"
+          className="flex items-center justify-center w-14 h-14 bg-[#25D366] text-white rounded-full shadow-lg hover:shadow-2xl transition-all duration-300 group hover:scale-110 active:scale-95"
+          title="Chat on WhatsApp"
+          aria-label="Chat on WhatsApp"
+        >
+          <img src={whatsappIcon} alt="WhatsApp" className="w-6 h-6 group-hover:animate-pulse" />
+        </a>
+      </div>
     </div>
   );
 };

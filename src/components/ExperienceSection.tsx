@@ -1,6 +1,6 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
-import experienceBg from "@/assets/experience-bg.jpg";
+import experienceBg from "@/assets/meta-1280x720.jpg";
 import { Gem, Wine, Globe, Heart } from "lucide-react";
 
 const experiences = [
@@ -68,21 +68,7 @@ const ExperienceSection = () => {
               Whether for an intimate evening or a grand occasion, every moment is crafted to perfection.
             </motion.p>
 
-            <div className="space-y-6">
-              {experiences.map((e, i) => (
-                <motion.div
-                  key={e.text}
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: 0.4 + i * 0.1 }}
-                  className="flex items-center gap-4 group"
-                >
-                  <e.icon className="h-5 w-5 text-primary flex-shrink-0" />
-                  <span className="text-base font-body font-light text-secondary-foreground">{e.text}</span>
-                </motion.div>
-              ))}
-            </div>
+           
           </div>
         </div>
       </div>
