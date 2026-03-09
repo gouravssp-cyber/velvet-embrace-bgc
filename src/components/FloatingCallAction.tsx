@@ -4,6 +4,7 @@ import whatsappIcon from "@/assets/whatsapp-svgrepo-com.svg";
 
 const FloatingCallAction = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const [copied, setCopied] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -15,6 +16,20 @@ const FloatingCallAction = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const handlePhoneClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.preventDefault();
+    const isMobile = /iPhone|iPad|iPod|Android|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    
+    if (isMobile) {
+      window.location.href = "tel:+918057744241";
+    } else {
+      // On desktop, copy phone number to clipboard
+      navigator.clipboard.writeText("+91 8057744241");
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    }
+  };
+
   return (
     <div
       className={`fixed right-6 bottom-8 z-50 transition-all duration-300 ${
@@ -23,14 +38,14 @@ const FloatingCallAction = () => {
     >
       <div className="flex flex-col items-center gap-3">
         <div className="relative">
-          <a
-            href="tel:+918057744241"
+          <button
+            onClick={handlePhoneClick}
             className="flex items-center justify-center w-14 h-14 bg-gradient-to-r from-primary to-gold-dark text-white rounded-full shadow-lg hover:shadow-2xl transition-all duration-300 group hover:scale-110 active:scale-95"
-            title="Call us"
+            title={copied ? "Copied!" : "Call us"}
             aria-label="Call us"
           >
             <Phone className="w-6 h-6 group-hover:animate-pulse" />
-          </a>
+          </button>
           <div className="absolute inset-0 rounded-full bg-primary/20 animate-pulse" />
         </div>
 
