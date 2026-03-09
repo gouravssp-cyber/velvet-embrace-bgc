@@ -24,7 +24,7 @@ const FloatingCallAction = () => {
       <div className="flex flex-col items-center gap-3">
         <div className="relative">
           <a
-            href="tel:+1234567890"
+            href="tel:+918057744241"
             className="flex items-center justify-center w-14 h-14 bg-gradient-to-r from-primary to-gold-dark text-white rounded-full shadow-lg hover:shadow-2xl transition-all duration-300 group hover:scale-110 active:scale-95"
             title="Call us"
             aria-label="Call us"
