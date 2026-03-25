@@ -87,6 +87,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<HomeRoute />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/:postId" element={<Blog />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>

@@ -7,11 +7,15 @@
   "trailingSlash": false,
   "rewrites": [
     {
-      "source": "/api/:path(.*)",
+      "source": "/api/:path*",
       "destination": "/api/:path*"
     },
     {
-      "source": "/(.*)",
+      "source": "/blog/:path*",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/:path*",
       "destination": "/index.html"
     }
   ],
