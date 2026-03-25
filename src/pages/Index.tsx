@@ -18,8 +18,8 @@ const Index = () => {
         <meta name="description" content="Hire independent call girls in Dehradun with full cash payment, no advance. Safe, private & premium companions available instantly. " />
         <meta property="og:title" content="Call Girls in Dehradun Cash Payment Quick Delivery ₹1999" />
         <meta property="og:description" content="Hire independent call girls in Dehradun with full cash payment, no advance. Safe, private & premium companions available instantly. " />
-        
-          <link rel="icon" type="image/png" href="https://www.babycallgirl.com/images/22.jpg" alt="Escort Girl"></link>
+
+        <link rel="icon" type="image/png" href="https://www.babycallgirl.com/images/22.jpg" ></link>
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Call Girls in Dehradun Cash Payment Quick Delivery ₹1999" />
         <meta name="twitter:description" content="Hire independent call girls in Dehradun with full cash payment, no advance. Safe, private & premium companions available instantly. " />
