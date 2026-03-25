@@ -1,0 +1,48 @@
+# Vercel Ignore File
+# Prevents unnecessary files from being deployed
+
+# Version Control
+.git
+.gitignore
+.github
+
+# Development
+node_modules
+npm-debug.log
+npm-error.log
+pnpm-lock.yaml
+yarn-error.log
+bun.lockb
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build & Test
+dist
+build
+coverage
+*.log
+
+# Documentation
+*.md
+!package.json
+!vercel.json
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Testing
+vitest.config.ts
+*.test.ts
+*.spec.ts
+test/
