@@ -36,17 +36,17 @@ const FloatingCallAction = () => {
         }`}
     >
       <div className="flex flex-col items-center gap-3">
-        <div className="relative">
-          <a
-            href="tel:+918057744241"
-            className="flex items-center justify-center w-14 h-14 bg-gradient-to-r from-primary to-gold-dark text-white rounded-full shadow-lg hover:shadow-2xl transition-all duration-300 group hover:scale-110 active:scale-95"
-            title={copied ? "Copied!" : "Call us"}
-            aria-label="Call us"
-          >
+        <a
+          href="tel:+918057744241"
+          className="flex items-center justify-center w-14 h-14 bg-gradient-to-r from-primary to-gold-dark text-white rounded-full shadow-lg hover:shadow-2xl transition-all duration-300 group hover:scale-110 active:scale-95"
+          title={copied ? "Copied!" : "Call us"}
+          aria-label="Call us"
+        >
+          <div className="relative">
             <Phone className="w-6 h-6 group-hover:animate-pulse" />
-          </a>
-          <div className="absolute inset-0 rounded-full bg-primary/20 animate-pulse" />
-        </div>
+            <div className="absolute inset-0 rounded-full bg-primary/20 animate-pulse" />
+          </div>
+        </a>
 
         <a
           href="https://api.whatsapp.com/send?phone=918057744241"
