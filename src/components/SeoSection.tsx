@@ -69,7 +69,7 @@ const SeoSection = () => {
                     transition={{ delay: 0.1 }}
                     className="mb-6 text-4xl md:text-5xl font-display italic font-light text-foreground leading-tight text-left"
                 >
-                    Dehradun call girls provide many escort services to their customers. You can unwind in bed with these ladies
+                    Premium Call Girls in Dehradun - No.1 Trusted Escort Service in Dehradun (2026 Updated)
 
                 </motion.h2>
 
@@ -91,15 +91,17 @@ const SeoSection = () => {
                     {/* Left: Text Content */}
                     <div className="space-y-6 text-lg font-serif font-light text-muted-foreground leading-relaxed order-2 lg:order-1">
                         <p>
-                            While feeling free from your daily routine and embracing a refreshing sense of escape, our Dehradun call girls offer the perfect blend of companionship and satisfaction. They are intelligent, intuitive, and masters of every technique to elevate your pleasure to new heights. Let go, go wild, and feel truly passionate during your intimate moments.
+                            Are you searching for genuine call girls in Dehradun with complete privacy, cash on delivery, and real photos? Welcome to the most professional and verified Dehradun escort service. We provide hot, sexy, and high-class Dehradun call girls who are ready to offer you an unforgettable experience 24 hours a day, 7 days a week.
                         </p>
 
                         <p>
-                            Dehradun call girls provide a wide range of premium escort services tailored to your desires. Unwind in bed with these captivating ladies, free from the stresses of everyday life. They excel at creating an atmosphere of relaxation and excitement, making them the ideal choice for an unforgettable, deeply satisfying experience.
+                            We have 2100+ verified hot and sexy call girls with real WhatsApp numbers and mobile numbers. Whether you want short-term fun, full night enjoyment, girlfriend experience, or VIP luxury service - we have every type of girl available for incall and outcall in Dehradun.
+
                         </p>
 
                         <p>
-                            With a stylish appearance and perfectly slim, alluring figures, they dress in the most attractive and sensual outfits. Their exotic curves and lovely, luscious features will leave you captivated. Independent escort girls in Dehradun know exactly how to please — these cute and beautiful companions take care of every detail so you can fully relax. No awkwardness with strangers; they gently encourage you to explore and enjoy every moment of the session. Your deepest wishes come true the instant a stunning escort lady from Dehradun arrives. Book online escort services easily through trusted platforms like Adult Escorts Classified.
+                            Book Call Girls in Dehradun today with Cash Payment | Free Home & Hotel Delivery | No Advance | 100% Satisfaction Guaranteed.
+
                         </p>
                     </div>
 
@@ -110,7 +112,7 @@ const SeoSection = () => {
                             whileInView={{ opacity: 1, scale: 1 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.8, delay: 0.2 }}
-                            src={dehradunEscortImg}
+                            src="/src/assets/companion/img13.jpg"
                             alt="Stylish and seductive independent escort in Dehradun – slim figure, elegant attire"
                             className="w-full h-auto object-cover aspect-[4/5] lg:aspect-square"
                             loading="lazy"
@@ -135,7 +137,7 @@ const SeoSection = () => {
                             whileInView={{ opacity: 1, scale: 1 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.8, delay: 0.2 }}
-                            src={dehradunEscortImg1} // ← Replace with your imported image or a suitable URL
+                            src="/src/assets/companion/img02.webp"
                             alt="Elegant and seductive independent escort in Dehradun – slim figure, stylish sensual attire, luxurious companion"
                             className="w-full h-auto object-cover aspect-[4/5] lg:aspect-square"
                             loading="lazy"
@@ -146,32 +148,34 @@ const SeoSection = () => {
 
                     {/* Right: Text Content */}
                     <div className="space-y-6 my-6 text-lg font-serif font-light text-muted-foreground leading-relaxed order-2">
-                        <p>
-                            Dehradun Call Girls can help make every occasion memorable - be it celebrating a birthday, anniversary, business trip or romantic date - as they're open-minded enough to explore all your wildest fantasies without becoming monotonous over time. You won't ever be bored when having them as your companion. These ladies have excellent manners and senses of humour; they make conversation easy while listening attentively when sharing personal problems.
-                        </p>
+                        <h2 className="mb-6 text-4xl md:text-5xl font-display italic font-light text-foreground leading-tight text-left">
+                            Why Choose Our Dehradun Call Girls Service?.
+                        </h2>
 
                         <div className="mt-6">
                             <p className="text-xl font-medium text-foreground mb-4">
-                                Hire Young & Sexy College Call Girls in Dehradun
+                                In a city like Dehradun, finding a reliable and safe call girl service can be difficult. Many agencies make false promises, send fake profiles, or ask for advance payment. We are different.
+                            </p>
+                            <p className="text-xl font-medium text-foreground mb-4">
+                                Here’s why thousands of clients trust us as the No.1 Call Girls in Dehradun:
                             </p>
                             <ul className="space-y-3 text-base font-serif font-light text-muted-foreground">
-                                <li>• Kajal → <span className="text-primary font-medium">In/Out-call: ₹6k – ₹12k</span></li>
-                                <li>• Rakhi → <span className="text-primary font-medium">Out-call: ₹8k – ₹15k</span></li>
-                                <li>• Shivani → <span className="text-primary font-medium">In-call: ₹9k – ₹18k</span></li>
-                                <li>• Gayatri → <span className="text-primary font-medium">In/Out-call: ₹12k – ₹20k</span></li>
+                                <li><span className="text-primary font-medium">100% Genuine & Verified Profiles with Real Photos and Videos</span></li>
+                                <li><span className="text-primary font-medium">Complete Privacy and Confidentiality</span></li>
+                                <li><span className="text-primary font-medium">Cash On Delivery (COD) - Pay only when you meet the girl</span></li>
+                                <li><span className="text-primary font-medium">Instant Booking via WhatsApp - Response within 5 minutes</span></li>
+                                <li><span className="text-primary font-medium">Affordable Rates Starting from Just ₹2499</span></li>
+                                <li><span className="text-primary font-medium">Available at All 5-Star Hotels, Home, and Private Locations</span></li>
+                                <li><span className="text-primary font-medium">Young College Girls, Housewives, Models, Russian, Punjabi, and VIP Escorts</span></li>
+                                <li><span className="text-primary font-medium">Professional Behaviour and Hygienic Girls</span></li>
+                                <li><span className="text-primary font-medium">Up to 50% Discount on First Booking</span></li>
+
                             </ul>
                         </div>
                         <p>
-                            Book your favourite <a href="https://babycallgirl.com/" className="text-primary hover:underline">Dehradun CALL GIRL with our agency</a>, and we guarantee that you will never forget our service in your lifetime. We charge a nominal fee for a charming hot call girl for a short or whole night. So why are you late so? Just Dial the number and Get your Dreams to come true.
-                        </p>
-                        <p>
-
-                            Call girls in Dehradun are truly stunning to look upon with their perfect lips and stunning eyes, their lush bodies leaving you wanting more, their knowledge of sexual pleasure is extensive, so you won't be sorry to choose one of these beauties for an exciting and fun-filled evening of excitement and pleasure. You will not be sorry. these girls have you covered for an enjoyable erection or massage experience. Available 24/7 and skilled in numerous massage techniques - they will make you feel like royalty.
+                            Our agency has been serving clients in Dehradun for years with full honesty and dedication. We focus on your satisfaction and safety above everything.
                         </p>
                     </div>
-
-
-
                 </motion.div>
 
 
@@ -187,27 +191,26 @@ const SeoSection = () => {
                     <div className="space-y-6 text-lg font-serif font-light text-muted-foreground leading-relaxed order-2 lg:order-1">
                         <div className="mt-6">
                             <p className="text-xl font-medium text-foreground mb-4">
-                                AVAILABLE GIRLS-
-                            </p>
-                            <ul className="space-y-3 text-base font-serif font-light text-muted-foreground">
-                                <li className="text-primary font-medium">  In Call and Out Call Service in Dehradun</li>
-                                <li className="text-primary font-medium">3* 5* 7* Hotels Service in Dehradun</li>
-                                <li className="text-primary font-medium">24 Hours Available in Dehradun</li>
-                                <li className="text-primary font-medium">Indian, Russian Escorts, College & Models Available</li>
-                                <li className="text-primary font-medium">Short Time and Full Time Service Available</li>
-                                <li className="text-primary font-medium">Hygienic Full AC Neat and Clean Rooms Avail. In Hotel 24 hours</li>
-                                <li className="text-primary font-medium">Daily New Escorts Staff Available</li>
-
-                            </ul>
-
-                            <p
-
-                                className="text-xl font-medium text-foreground my-4">
-
-                                BOOK YOUR FAVORITE Dehradun CALL GIRLS SERVICE WITH US CALL! US NOW
+                                Our Wide Range of Dehradun Call Girls Profiles
                             </p>
                             <p>
-                                Book your favourite Dehradun CALL GIRL with our agency, and we guarantee that you will never forget our service in your lifetime. We charge a nominal fee for a charming hot call girl for a short or whole night. So why are you late so? Just Dial the number and Get your Dreams to come true.
+                                We maintain a huge collection of beautiful and skilled girls so you can choose exactly what you desire:
+                            </p>
+                            <ul className="space-y-3 text-base font-serif font-light text-muted-foreground">
+                                <li className="text-primary font-medium"><span className="">Housewife Call Girls in Dehradun :- </span>Experienced, mature, and very cooperative</li>
+                                <li className="text-primary font-medium"><span className="">College Girl Call Girls in Dehradun :- </span>Young, fresh, and energetic (18+ only)</li>
+                                <li className="text-primary font-medium"><span className="">Russian Call Girls in Dehradun  :- </span>Tall, fair, and extremely hot</li>
+                                <li className="text-primary font-medium"><span className="">Punjabi Bhabhi Call Girls   :- </span> Curvy, bold, and full of passion</li>
+                                <li className="text-primary font-medium"><span className="">VIP High-Class Model Call Girls    :- </span> Glamorous and sophisticated</li>
+                                <li className="text-primary font-medium"><span className="">Independent Call Girls in Dehradun     :- </span>  Direct contact, no middlemen</li>
+                                <li className="text-primary font-medium"><span className="">Air Hostess Call Girls :- </span> Stylish and well-mannered</li>
+                                <li className="text-primary font-medium"><span className="">Mature MILF & Aunty Call Girls  :- </span> Expert in pleasure</li>
+                                <li className="text-primary font-medium"><span className="">Desi Village & North-East Call Girls :- </span>  Natural beauty and sweet nature</li>
+                                <li className="text-primary font-medium"><span className="">Teenage (18+) & Luxury Spa Girls  :- </span>Perfect for massage and sensual fun</li>
+                            </ul>
+
+                            <p className="text-xl font-medium text-foreground my-4">
+                                Every girl’s profile is updated regularly with real images, age, height, figure, and services offered.
                             </p>
                         </div>
                     </div>
@@ -219,7 +222,7 @@ const SeoSection = () => {
                             whileInView={{ opacity: 1, scale: 1 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.8, delay: 0.2 }}
-                            src={dehradunEscortImg3}
+                            src="/src/assets/companion/img03.webp"
                             alt="Stylish and seductive independent escort in Dehradun – slim figure, elegant attire"
                             className="w-full h-auto object-cover aspect-[4/5] lg:aspect-square"
                             loading="lazy"
@@ -231,11 +234,14 @@ const SeoSection = () => {
 
             </div>
 
-
-
-
-            <div className="max-w-7xl mx-auto my-12">
-
+            {/* Services Offered Section */}
+            <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6 }}
+                className="mt-20"
+            >
                 <motion.h2
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -243,7 +249,7 @@ const SeoSection = () => {
                     transition={{ delay: 0.1 }}
                     className="mb-6 text-4xl md:text-5xl font-display italic font-light text-foreground leading-tight text-center"
                 >
-                    Low Cost Call Girls In Dehradun Cash Payment Quick Delivery
+                    Services Offered by Our Dehradun Call Girls
                 </motion.h2>
 
                 <motion.div
@@ -251,92 +257,543 @@ const SeoSection = () => {
                     whileInView={{ opacity: 1 }}
                     viewport={{ once: true }}
                     transition={{ delay: 0.15 }}
-                    className="gold-line-wide mx-auto mb-10"
+                    className="gold-line-wide mx-auto mb-12"
                 />
 
-                <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: 0.2 }}
-                    className="space-y-6 text-lg font-serif font-light text-muted-foreground leading-relaxed"
-                >
-                    <p>
-                        Discover the ultimate experience with elite call girl in Dehradun, where sophistication blends seamlessly with pleasure. Our trusted agency is dedicated to offering refined, secure, and professional call girl service for gentlemen who value genuine connection and comfort. Whether you’re in the city for a business trip or simply seeking a relaxing escape, our charming Dehradun call girls will make your moments truly unforgettable. We proudly serve all prominent areas of Dehradun, including Rajpur Road, Ballupur, Clement Town, Prem Nagar, Sahastradhara, Patel Nagar, and ISBT. Wherever you’re staying, you can enjoy convenient outcall or hotel-based service with our beautiful and reliable models ready to meet your desires.
-                    </p>
-                    <p>
-                        Choose from an exclusive collection of call girls in Dehradun-independent call girls, affectionate housewives, elegant college girls, glamorous air hostesses, alluring Russian escorts, and high-profile beauties. Every profile is personally verified for your safety and peace of mind. From romantic dinners to overnight companionship, our call girls provide warm, engaging, and customized experiences that leave lasting impressions. Enjoy discreet service, complete privacy, and flexible booking options. Whether you’re drawn to sweet, graceful personalities or bold, passionate ones, our Dehradun call girls deliver the perfect balance of elegance, charm, and sensuality-available at affordable prices with easy cash payment options.
-                    </p>
-                    <p>
-                        देहरादून की कॉल गर्ल्स अपनी खूबसूरती, रोमांटिक स्वभाव और प्रोफेशनल सर्विस के लिए जानी जाती हैं। यहां आप सुरक्षित, गोपनीय और आपके मनचाहे तरीके से प्रीमियम साथी का आनंद ले सकते हैं। देहरादून में कॉल गर्ल सर्विस हर वर्ग के लोगों के लिए किफायती और भरोसेमंद अनुभव प्रदान करती है। आप अपनी पसंद की कॉलेज गर्ल, हाउसवाइफ या इंडिपेंडेंट मॉडल को आसानी से बुक कर सकते हैं।
-                    </p>
-                </motion.div>
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+                    {/* Left: Services List */}
+                    <div className="space-y-8 order-2 lg:order-1">
+                        <p className="text-lg font-serif font-light text-muted-foreground leading-relaxed">
+                            We offer a complete range of services to fulfill all your fantasies and desires with
+                            complete privacy and satisfaction.
+                        </p>
 
-            </div>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 text-base">
+                            {[
+                                "Short Time Service (1-2 Hours)",
+                                "Full Night Service (8-10 Hours)",
+                                "Girlfriend Experience (GFE) – Kissing, Hugging & Romance",
+                                "Overnight Stay with Breakfast",
+                                "Hotel Room Service (Incall)",
+                                "Home & Office Outcall Service",
+                                "Cash Payment Service (No Advance)",
+                                "Dating & Romantic Meetings",
+                                "Couple-Friendly Services",
+                                "Body Massage & Sensual Massage",
+                                "Role Play & Fantasy Fulfilment",
+                                "Travel Companion for Business Trips",
+                                "Corporate Event Escorts",
+                                "VIP & High-Profile Services",
+                            ].map((service, index) => (
+                                <motion.div
+                                    key={index}
+                                    initial={{ opacity: 0, x: -20 }}
+                                    whileInView={{ opacity: 1, x: 0 }}
+                                    viewport={{ once: true }}
+                                    transition={{ delay: 0.1 * index }}
+                                    className="flex items-start gap-3 group"
+                                >
+                                    <div className="w-2 h-2 mt-2.5 rounded-full bg-primary flex-shrink-0 group-hover:scale-125 transition-transform" />
+                                    <span className="font-serif font-light text-muted-foreground leading-relaxed">
+                                        {service}
+                                    </span>
+                                </motion.div>
+                            ))}
+                        </div>
 
+                        <p className="text-sm font-light text-muted-foreground pt-4 border-t border-border">
+                            All services are performed with full consent, hygiene, professionalism, and 100% discretion.
+                        </p>
+                    </div>
 
+                    {/* Right: Image */}
+                    <div className="relative overflow-hidden rounded-2xl shadow-2xl order-1 lg:order-2">
+                        <motion.img
+                            initial={{ opacity: 0, scale: 1.05 }}
+                            whileInView={{ opacity: 1, scale: 1 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.8, delay: 0.2 }}
+                            src="/src/assets/companion/img05.jpg"
+                            alt="Dehradun call girls offering various escort services including GFE, full night, and sensual massage"
+                            className="w-full h-auto object-cover aspect-[4/5] lg:aspect-square"
+                            loading="lazy"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-background/50 to-transparent pointer-events-none" />
+                    </div>
+                </div>
+            </motion.div>
+
+            {/* Local Areas We Serve Section */}
             <motion.div
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6 }}
-                className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center"
+                className="mt-20"
             >
-                {/* Left: Text Content */}
-                <div className="space-y-6 text-lg font-serif font-light text-muted-foreground leading-relaxed order-2 lg:order-1">
-                    <p className="text-xl font-medium text-foreground mb-4">
-                        Genuine verified call girl in Dehradun cash payment Delivery
-                    </p>
+                <motion.h2
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: 0.1 }}
+                    className="mb-6 text-4xl md:text-5xl font-display italic font-light text-foreground leading-tight text-center"
+                >
+                    Local Areas We Serve - Call Girls in Dehradun Near Me
+                </motion.h2>
 
-                    <p>
-                        Call Girl is one of the best and trusted call girl service in Dehradun. If you are alone and looking for some lovely experience than you are right place. your dream Dehradun call girl is one call away. Book your call girls for dating and to capture some exciting moment as memory.?
-                    </p>
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: 0.15 }}
+                    className="gold-line-wide mx-auto mb-12"
+                />
 
-                    <p>
-                        Our call girls in Dehradun are very professional and cool nature in industry. We are very dedicated to our work and never late in meeting. You will find our professional always on time. Our call girl are willing to go out of their way to serve you very graciously. client satisfaction is our first priority and we always look for client satisfaction services. our call girl also look for your desire.. <br />
-                        Our meeting with call girl are very pleasurable and memorable. Our girls whenever is with you always treat you like your soulmate and offer premium experience adequately. Our VIP call girl offer full attention and make your time very special. <br />
-                        If you are looking to take your next business trip in style, then check out our Dehradun call girls agency! Our beautiful call girl in Dehradun are here to provide you with the relaxation and pleasure that you deserve during your busy business trips. Whether you want to book our gorgeous busty blonde call girl or any of our other well-known Dehradun call girls, we can make it happen!
-                    </p>
-                    <p>
-                        Our listed classified call girls in Dehradun aims to please both gentlemen and ladies alike, so you will never feel excluded when visiting our website! Look through our database of stunning call girls in Dehradun today and find the one that works best for you!
-                    </p>
-                </div>
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
+                    {/* Left: Areas List */}
+                    <div className="order-2 lg:order-1">
+                        <p className="text-lg font-serif font-light text-muted-foreground leading-relaxed mb-8">
+                            Our Dehradun call girls provide fast delivery in just 20-40 minutes across all major locations in Dehradun.
+                        </p>
 
-                {/* Right: Image */}
-                <div className="relative overflow-hidden rounded-lg shadow-2xl order-1 lg:order-2">
-                    <motion.img
-                        initial={{ opacity: 0, scale: 1.05 }}
-                        whileInView={{ opacity: 1, scale: 1 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.8, delay: 0.2 }}
-                        src={dehradunEscortImg5}
-                        alt="Stylish and seductive independent escort in Dehradun – slim figure, elegant attire"
-                        className="w-full h-auto object-cover aspect-[4/5] lg:aspect-square"
-                        loading="lazy"
-                    />
-                    {/* Optional subtle overlay for luxury feel */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-background/40 to-transparent pointer-events-none" />
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-3 text-base">
+                            {[
+                                "Rajpur Road",
+                                "Mussoorie Road",
+                                "Sahastradhara Road",
+                                "Chakrata Road",
+                                "GMS Road",
+                                "Ballupur Chowk",
+                                "Dalanwala",
+                                "Kaulagarh Road",
+                                "Vasant Vihar",
+                                "Indira Nagar",
+                                "Nehru Colony",
+                                "Hathibarkala",
+                                "Prem Nagar",
+                                "Majra",
+                                "Paltan Bazaar",
+                                "Clock Tower (Ghanta Ghar)",
+                                "ISBT Dehradun",
+                                "Prince Chowk",
+                                "Astley Hall",
+                                "Subhash Road",
+                                "Race Course",
+                                "Doon University Area",
+                                "Graphic Era University Area",
+                                "Dehradun Airport Area",
+                                "Bindal Bridge",
+                                "Rishikesh Road",
+                                "Haridwar Road",
+                                "Shimla Bypass",
+                                "Canal Road",
+                                "Uttarakhand Secretariat Area",
+                            ].map((area, index) => (
+                                <motion.div
+                                    key={index}
+                                    initial={{ opacity: 0, x: -20 }}
+                                    whileInView={{ opacity: 1, x: 0 }}
+                                    viewport={{ once: true }}
+                                    transition={{ delay: Math.min(0.03 * index, 0.6) }}
+                                    className="flex items-center gap-3 group"
+                                >
+                                    <div className="w-2 h-2 rounded-full bg-primary flex-shrink-0 group-hover:scale-125 transition-transform" />
+                                    <span className="font-serif font-light text-muted-foreground">
+                                        Call Girls in {area}
+                                    </span>
+                                </motion.div>
+                            ))}
+                        </div>
+                    </div>
+
+                    {/* Right: Image + Hotels */}
+                    <div className="space-y-10 order-1 lg:order-2">
+                        {/* Image */}
+                        <div className="relative overflow-hidden rounded-2xl shadow-2xl">
+                            <motion.img
+                                initial={{ opacity: 0, scale: 1.05 }}
+                                whileInView={{ opacity: 1, scale: 1 }}
+                                viewport={{ once: true }}
+                                transition={{ duration: 0.8, delay: 0.2 }}
+                                src="/src/assets/companion/img10.jpg" // ← Change to any of your existing images
+                                alt="Call girls service available in all areas of Dehradun with fast delivery"
+                                className="w-full h-auto object-cover aspect-[4/5] lg:aspect-square"
+                                loading="lazy"
+                            />
+                            <div className="absolute inset-0 bg-gradient-to-t from-background/50 to-transparent pointer-events-none" />
+                        </div>
+
+                        {/* Hotels List */}
+                        <div>
+                            <h3 className="text-2xl font-display italic font-light text-foreground mb-6">
+                                We also serve all major hotels in Dehradun
+                            </h3>
+                            <div className="space-y-3 text-base font-serif font-light text-muted-foreground">
+                                {[
+                                    "Hyatt Regency Dehradun",
+                                    "JW Marriott Dehradun",
+                                    "The Lemon Tree",
+                                    "Sterling Dehradun",
+                                    "Ramada by Wyndham",
+                                ].map((hotel, index) => (
+                                    <div key={index} className="flex items-center gap-3">
+                                        <div className="w-2 h-2 rounded-full bg-primary flex-shrink-0" />
+                                        <span>{hotel}</span>
+                                    </div>
+                                ))}
+                                <div className="pt-2 text-sm text-muted-foreground">
+                                    and all other 3-star & 4-star hotels
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </motion.div>
 
 
-
-            {/* Quick contact icons for better UX + indirect SEO signal */}
+            {/* Rate Chart Section */}
             <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
-                transition={{ delay: 0.4 }}
-                className="mt-12 flex justify-center gap-10 flex-wrap"
+                transition={{ duration: 0.6 }}
+                className="mt-20"
             >
-                <div className="flex items-center gap-3 group">
-                    <a href="tel:+918057744241" className="text-base font-body font-light text-secondary-foreground hover:text-primary transition-colors flex items-center gap-3 group">
-                        <Phone className="h-6 w-6 text-primary group-hover:scale-110 transition-transform" />
-                        <span className="text-base font-body font-light text-secondary-foreground">Phone / WhatsApp</span>
-                    </a>
+                <motion.h2
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: 0.1 }}
+                    className="mb-6 text-4xl md:text-5xl font-display italic font-light text-foreground leading-tight text-center"
+                >
+                    Dehradun Call Girls Rate Chart 2026 (Cash Payment)
+                </motion.h2>
+
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: 0.15 }}
+                    className="gold-line-wide mx-auto mb-12"
+                />
+
+                <div className="bg-muted/30 rounded-3xl p-8 lg:p-12">
+                    <div className="overflow-x-auto">
+                        <table className="w-full min-w-[600px] text-left border-collapse">
+                            <thead>
+                                <tr className="border-b border-border">
+                                    <th className="pb-6 text-lg font-medium text-foreground">Service Type</th>
+                                    <th className="pb-6 text-lg font-medium text-foreground">Duration</th>
+                                    <th className="pb-6 text-lg font-medium text-foreground text-right">Starting Price</th>
+                                </tr>
+                            </thead>
+                            <tbody className="text-lg font-serif font-light text-muted-foreground">
+                                <tr className="border-b border-border/60">
+                                    <td className="py-5">Short Time</td>
+                                    <td className="py-5">1-2 Hours</td>
+                                    <td className="py-5 text-right font-medium text-foreground">₹2499</td>
+                                </tr>
+                                <tr className="border-b border-border/60">
+                                    <td className="py-5">Extended Short Time</td>
+                                    <td className="py-5">3-4 Hours</td>
+                                    <td className="py-5 text-right font-medium text-foreground">₹3999</td>
+                                </tr>
+                                <tr className="border-b border-border/60">
+                                    <td className="py-5">Full Night</td>
+                                    <td className="py-5">8-10 Hours</td>
+                                    <td className="py-5 text-right font-medium text-foreground">₹5999</td>
+                                </tr>
+                                <tr className="border-b border-border/60">
+                                    <td className="py-5">Russian / Model / VIP</td>
+                                    <td className="py-5">Full Night</td>
+                                    <td className="py-5 text-right font-medium text-foreground">₹8999</td>
+                                </tr>
+                                <tr className="border-b border-border/60">
+                                    <td className="py-5">Overnight GFE Package</td>
+                                    <td className="py-5">12+ Hours</td>
+                                    <td className="py-5 text-right font-medium text-foreground">₹11999</td>
+                                </tr>
+                                <tr>
+                                    <td className="py-5">Extra Night / Day</td>
+                                    <td className="py-5">Per 24 Hours</td>
+                                    <td className="py-5 text-right font-medium text-foreground">₹14999</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <p className="mt-8 text-center text-muted-foreground font-light">
+                        Prices are negotiable according to girl's category and your requirements.
+                        <span className="block mt-1 text-sm">No hidden charges. Full rate transparency before booking.</span>
+                    </p>
+                </div>
+            </motion.div>
+
+
+            {/* Booking Process & Additional Info */}
+            <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6 }}
+                className="mt-20 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16"
+            >
+                {/* Left: How to Book */}
+                <div className="space-y-10">
+                    <div>
+                        <h3 className="text-3xl font-display italic font-light text-foreground mb-8">
+                            How to Book Call Girls in Dehradun - Simple 3-Step Process
+                        </h3>
+                        <div className="space-y-8">
+                            {[
+                                "WhatsApp Us - Send your requirements, location, and time",
+                                "Choose Your Girl - We will send real photos and details of available girls",
+                                "Meet & Pay - Girl reaches your place, you meet, then pay in cash",
+                            ].map((step, index) => (
+                                <div key={index} className="flex gap-5">
+                                    <div className="w-10 h-10 rounded-2xl bg-primary/10 text-primary font-display font-light flex items-center justify-center flex-shrink-0 text-2xl">
+                                        {index + 1}
+                                    </div>
+                                    <p className="text-lg font-serif font-light text-muted-foreground pt-1">{step}</p>
+                                </div>
+                            ))}
+                        </div>
+                        <p className="mt-8 text-sm font-light text-muted-foreground">
+                            No advance payment. No registration. 100% safe and confidential process.
+                        </p>
+                    </div>
                 </div>
 
+                {/* Right: Benefits + Safety + Special Services */}
+                <div className="space-y-12">
+                    {/* Benefits */}
+                    <div>
+                        <h4 className="text-2xl font-display italic font-light text-foreground mb-6">Benefits of Booking Through Us</h4>
+                        <ul className="space-y-4 text-base font-serif font-light text-muted-foreground">
+                            {[
+                                "Verified profiles reduce the risk of fraud",
+                                "Real-time availability updates",
+                                "Professional and polite behaviour guaranteed",
+                                "High-quality girls with excellent communication skills",
+                                "Complete discretion - We never share client information",
+                                "24/7 customer support",
+                                "Regular clients get special discounts and priority booking",
+                            ].map((benefit, i) => (
+                                <li key={i} className="flex items-start gap-3">
+                                    <span className="text-primary mt-1.5">•</span>
+                                    {benefit}
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+
+                    {/* Safety Guidelines */}
+                    <div>
+                        <h4 className="text-2xl font-display italic font-light text-foreground mb-6">Safety Guidelines for Customers</h4>
+                        <ul className="space-y-4 text-base font-serif font-light text-muted-foreground">
+                            {[
+                                "Always verify the girl’s profile and photos before finalising",
+                                "Meet only at your chosen location (hotel/home)",
+                                "Never share unnecessary personal or financial details",
+                                "Prefer cash payment at the meeting",
+                                "Choose girls with good reviews and ratings",
+                                "All communication should be done only through our official WhatsApp",
+                            ].map((item, i) => (
+                                <li key={i} className="flex items-start gap-3">
+                                    <span className="text-primary mt-1.5">•</span>
+                                    {item}
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                </div>
             </motion.div>
+
+            {/* Special Services & Why Popular */}
+            <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6 }}
+                className="mt-20"
+            >
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
+                    {/* Special Services */}
+                    <div>
+                        <h3 className="text-3xl font-display italic font-light text-foreground mb-8">Special Services & Packages in Dehradun</h3>
+                        <ul className="space-y-4 text-base font-serif font-light text-muted-foreground">
+                            {[
+                                "Long-Duration Packages for businessmen and tourists",
+                                "Weekend Special Packages",
+                                "Romantic Dinner Date + Night Stay",
+                                "Sensual Body Massage with Happy Ending",
+                                "BDSM & Fantasy Role Play (on request)",
+                                "Couple Services for married couples seeking extra spice",
+                            ].map((service, i) => (
+                                <li key={i} className="flex items-start gap-3">
+                                    <span className="text-primary mt-1.5">★</span>
+                                    {service}
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+
+                    {/* Why Popular */}
+                    <div className="space-y-6 text-lg font-serif font-light text-muted-foreground leading-relaxed">
+                        <h3 className="text-3xl font-display italic font-light text-foreground">Why Call Girls in Dehradun Are So Popular?</h3>
+                        <p>
+                            Dehradun is a beautiful city with pleasant weather, surrounded by hills. Many people visit here for business,
+                            education, tourism, or pilgrimage. After a long day of work or travel, spending quality time with a beautiful,
+                            understanding, and passionate Dehradun call girl becomes the best way to relax and enjoy.
+                        </p>
+                        <p>
+                            Our girls are not just physically attractive but also well-mannered, educated, and know how to give emotional
+                            as well as physical satisfaction.
+                        </p>
+                    </div>
+                </div>
+            </motion.div>
+
+
+                  {/* FAQ Section */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6 }}
+        className="mt-20"
+      >
+        <motion.h2
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.1 }}
+          className="mb-6 text-4xl md:text-5xl font-display italic font-light text-foreground leading-tight text-center"
+        >
+          Frequently Asked Questions (FAQs)
+        </motion.h2>
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.15 }}
+          className="gold-line-wide mx-auto mb-12"
+        />
+
+        <div className="max-w-4xl mx-auto space-y-8">
+          {[
+            {
+              q: "Is cash on delivery available for call girls in Dehradun?",
+              a: "Yes, full COD available. Pay only after meeting the girl."
+            },
+            {
+              q: "Do you provide real photos and WhatsApp numbers?",
+              a: "Yes, all profiles come with real, recent photos. We share WhatsApp after initial confirmation."
+            },
+            {
+              q: "Are college girls and housewives available?",
+              a: "Yes, both are available in good numbers."
+            },
+            {
+              q: "Is service available at 5-star hotels?",
+              a: "Yes, direct room delivery at all major hotels in Dehradun."
+            },
+            {
+              q: "What is the minimum charge?",
+              a: "Starting from ₹2499 for a short time."
+            },
+            {
+              q: "Do you serve in Mussoorie or nearby areas?",
+              a: "Currently, we serve only inside Dehradun city limits."
+            },
+            {
+              q: "Is complete privacy guaranteed?",
+              a: "Yes, 100% privacy. We value our clients’ trust."
+            },
+          ].map((faq, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 10 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.05 * index }}
+              className="bg-muted/30 rounded-2xl p-7"
+            >
+              <p className="font-medium text-foreground mb-3 text-lg">
+                Q{index + 1}. {faq.q}
+              </p>
+              <p className="text-muted-foreground font-serif font-light leading-relaxed">
+                {faq.a}
+              </p>
+            </motion.div>
+          ))}
+        </div>
+      </motion.div>
+
+      {/* Final CTA / Closing Section */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.7 }}
+        className="mt-24 text-center"
+      >
+        <div className="max-w-4xl mx-auto">
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-4xl md:text-5xl font-display italic font-light text-foreground leading-tight mb-8"
+          >
+            Ready for an Unforgettable Experience?
+          </motion.h2>
+
+          <div className="space-y-6 text-lg font-serif font-light text-muted-foreground leading-relaxed mb-10">
+            <p>
+              If you are in Dehradun and looking for real fun, relaxation, and ultimate pleasure, 
+              then don’t waste time searching random numbers. Contact the most trusted call girls 
+              in Dehradun agency today.
+            </p>
+            <p>
+              We promise you the best service, the hottest girls, complete satisfaction, and 
+              memories that will last a long time.
+            </p>
+          </div>
+
+          {/* Call to Action Buttons */}
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
+            <a
+              href="https://wa.me/918057744241" // ← Replace with your WhatsApp number
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center bg-green-600 hover:bg-green-700 text-white font-medium text-lg px-10 py-4 rounded-2xl transition-all duration-300"
+            >
+              📲 Book Now on WhatsApp
+            </a>
+            
+            <a
+              href="tel:+918057744241" // ← Replace with your phone number
+              className="inline-flex items-center justify-center border border-foreground/30 hover:bg-foreground/5 font-medium text-lg px-10 py-4 rounded-2xl transition-all duration-300"
+            >
+              📞 Call Now
+            </a>
+          </div>
+
+          <div className="text-sm uppercase tracking-widest text-muted-foreground font-light mb-4">
+            Cash Payment • Free Delivery • 24×7 Service • Real Photos
+          </div>
+
+          <p className="text-xl md:text-2xl font-light italic text-foreground">
+            Get ready to enjoy the most beautiful and professional Dehradun escorts and call girls
+          </p>
+          
+          <p className="mt-3 text-muted-foreground font-light">
+            Your Secret Pleasure Partner in the Capital of Uttarakhand
+          </p>
+        </div>
+      </motion.div>
+
         </section>
     );
 };

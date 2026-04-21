@@ -1,1430 +1,193 @@
-<?php include('header.php'); ?>
-<main class="main">
-    <div class="hero-section">
-        <div class="hero-single" style="background: url(assets/img/hero/hero-1.jpg)">
-            <div class="hero-shape">
-                <img src="assets/img/shape/05.png" alt>
-            </div>
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-7">
-                        <div class="hero-content ">
-                            <div class="hero-date">
-                                <div class="date-content">
-                                    <p>Welcome to</p>
-                                </div>
-                            </div>
-                            <h1 class="hero-title text-center">Best Balloon<span> Decoration Company</span></h1>
-                            <p class="text-center">We offer high quality Balloon Decoration Services, contact us or
-                                visit us today for more information..</p>
-                            <div class="hero-btn">
-                                <a href="about.php" class="theme-btn">About Us<i class="fas fa-arrow-right"></i></a>
-                                <a href="contact.php" class="theme-btn theme-btn2">Contact Now<i
-                                        class="fas fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <div class="contact-wrapper">
-                            <div class="contact-form">
-                                <h3 style="text-align: center; padding-bottom: 20px;">Book An Order</h3>
-                                <form method="post" action="https://live.themewild.com/eventu/assets/php/contact.php"
-                                    id="contact-form">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="input-group">
-                                                <span class="input-group-text"><i class="far fa-user-tie"></i></span>
-                                                <input type="text" class="form-control" name="name"
-                                                    placeholder="Your Name" required>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="input-group">
-                                                <span class="input-group-text"><i class="far fa-envelope"></i></span>
-                                                <input type="email" class="form-control" name="email"
-                                                    placeholder="Your Email" required>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="input-group">
-                                        <span class="input-group-text"><i class="far fa-pen"></i></span>
-                                        <input type="text" class="form-control" name="subject"
-                                            placeholder="Your Subject" required>
-                                    </div>
-                                    <div class="input-group textarea">
-                                        <span class="input-group-text"><i class="far fa-comment-lines"></i></span>
-                                        <textarea name="message" cols="30" rows="5" class="form-control"
-                                            placeholder="Write Your Message"></textarea>
-                                    </div>
-                                    <button type="submit" class="theme-btn">Send
-                                        Message <i class="far fa-paper-plane"></i></button>
-                                    <div class="col-md-12 mt-3">
-                                        <div class="form-messege text-success"></div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="hero-btn">
-        <marquee class="theme-btn" style="border-radius: 0px;">Welcome To Top 1 Balloon Decoration | Call Us: +91
-            <?php echo $num1 ?> | We Accept all type credit debit cards 24*7 | Our Services => Birthday Decoration |
-            Office Decoration | Showroom Decoration | Anniversary Decoration | Baby Shower Decoration | Kids Birthday
-            Decoration | Ring Set up Decoration | Festival Decoration
-        </marquee>
-    </div>
-
-    <div class="feature-area pt-10">
-        <div class="container">
-            <div class="feature-wrapper">
-                <div class="row g-4">
-                    <div class="col-md-6 col-lg-3">
-                        <div class="feature-item wow fadeInUp" data-wow-delay=".25s">
-                            <div class="feature-icon">
-                                <img src="assets/img/icon/speaker.png" alt>
-                            </div>
-                            <h4 class="feature-title">Years Experience</h4>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="feature-item wow fadeInDown" data-wow-delay=".25s">
-                            <div class="feature-icon">
-                                <img src="assets/img/icon/learn.png" alt>
-                            </div>
-                            <h4 class="feature-title">Our Expert Staffs</h4>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="feature-item wow fadeInUp" data-wow-delay=".25s">
-                            <div class="feature-icon">
-                                <img src="assets/img/icon/meet.png" alt>
-                            </div>
-                            <h4 class="feature-title">Awards Win</h4>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="feature-item wow fadeInDown" data-wow-delay=".25s">
-                            <div class="feature-icon">
-                                <img src="assets/img/icon/question.png" alt>
-                            </div>
-                            <h4 class="feature-title">Happy Clients</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <hr>
-
-    <div class="about-area py-20">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-5">
-                    <div class="about-left wow fadeInRight" data-wow-delay=".25s">
-                        <div class="about-img">
-                            <img class="img-1" src="assets/img/about/01.jpg" alt>
-                            <img class="img-2" src="assets/img/about/02.jpg" alt>
-                            <img class="img-3" src="assets/img/about/03.jpg" alt>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="about-right wow fadeInLeft" data-wow-delay=".25s">
-                        <div class="site-heading mb-3">
-                            <h2 class="site-title">
-                                Company <span>Information</span>
-                            </h2>
-                            <div class="site-shadow-text wow fadeInRight" data-wow-delay=".35s">About Us</div>
-                        </div>
-                        <p class="about-text">Welcome to Top 1 Balloon Decoration Company, your one-stop destination for
-                            all types of balloon decorations! We specialize in transforming ordinary spaces into
-                            extraordinary celebrations with our creative and vibrant balloon designs. Whether it's a
-                            birthday party, wedding, corporate event, or any special occasion, we bring your vision to
-                            life with stunning balloon decorations that wow your guests and create lasting memories.
-                        </p>
-
-                        <div class="row">
-                            <li class="row-right text-left parent-fly animMix">
-                                <div class="product-price">
-                                    <span class="money"><a href="about.php" class="theme-btn">About Us<i
-                                                class="fas fa-arrow-right"></i></a></span>
-                                    <span class="money"><a href="tel:<?php echo $num1;?>"> <img src="assets/call.png"
-                                                alt=""></a></span>
-                                    <span class="money"><a href="https://api.whatsapp.com/send?phone=916375980595"> <img
-                                                src="assets/whats.png" alt=""></a></span>
-                                </div>
-                            </li>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="counter-area pt-80 pb-80">
-        <div class="container">
-            <div class="row g-4 align-items-center">
-                <div class="col-lg-5">
-                    <div class="counter-info">
-                        <div class="site-heading mb-3">
-                            <h2 class="site-title text-white">Balloon Stock</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="row g-4 justify-content-center">
-                        <div class="col-md-6">
-                            <div class="counter-box wow fadeInUp" data-wow-delay=".25s">
-                                <div class="icon">
-                                    <img src="assets/img/icon/workshop.png" alt>
-                                </div>
-                                <div class="counter-content">
-                                    <div class="counter-info">
-                                        <span class="counter" data-count="+" data-to="59" data-speed="3000">59</span>
-                                        <span class="counter-unit">+</span>
-                                    </div>
-                                    <h6 class="title">Decorations Type</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="counter-box wow fadeInDown" data-wow-delay=".25s">
-                                <div class="icon">
-                                    <img src="assets/img/icon/participant.png" alt>
-                                </div>
-                                <div class="counter-content">
-                                    <div class="counter-info">
-                                        <span class="counter" data-count="+" data-to="1500"
-                                            data-speed="3000">1500</span>
-                                        <span class="counter-unit">+</span>
-                                    </div>
-                                    <h6 class="title">Satisfied Customers</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="counter-box wow fadeInUp" data-wow-delay=".25s">
-                                <div class="icon">
-                                    <img src="assets/img/icon/speaker-2.png" alt>
-                                </div>
-                                <div class="counter-content">
-                                    <div class="counter-info">
-                                        <span class="counter" data-count="+" data-to="225" data-speed="3000">225</span>
-                                        <span class="counter-unit">+</span>
-                                    </div>
-                                    <h6 class="title">Balloon Designs in Stock</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="counter-box wow fadeInDown" data-wow-delay=".25s">
-                                <div class="icon">
-                                    <img src="assets/img/icon/award.png" alt>
-                                </div>
-                                <div class="counter-content">
-                                    <div class="counter-info">
-                                        <span class="counter" data-count="+" data-to="1585"
-                                            data-speed="3000">1585</span>
-                                        <span class="counter-unit">+</span>
-                                    </div>
-                                    <h6 class="title">Completed Decoration</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container pt-5">
-
-        <div class="row">
-            <div class="col-md-6  ">
-                <h2>Balloon Decoration Service That Makes Every Celebration Unforgettable</h2>
-                <p class="pt-3">It's not enough to just get people together for a celebration nowadays. Every event
-                    these days is about making memories, pictures, and moments that will last a long time. A skilled
-                    Balloon Decoration Service may turn a boring place into a fun and interesting setting. Balloons make
-                    any event more colourful, exciting, and lively, whether it's a <a
-                        href="https://www.top1balloondecoration.com/birthday-decoration.php"><b>birthday,</b></a> <a
-                        href="https://www.top1balloondecoration.com/anniversary-decoration.php"><b>anniversary</b></a>,
-                    <a href="https://www.top1balloondecoration.com/baby-shower-decoration.php"><b>baby shower</b></a>,
-                    or business event.</p>
-                <p>A well-planned <a href="https://www.top1balloondecoration.com/"><b>Balloon Decoration Service</b></a>
-                    pays attention to more than just how pretty things are. It also pays attention to how they fit
-                    together, how they fit with the theme, and how they flow. Every part of the decor, from the
-                    beautiful balloon arches to the interesting backdrops and ceiling decorations, is meant to fit the
-                    mood of the event. This is why more and more people are choosing to hire pros instead of doing their
-                    own decorations at the last minute.</p>
-
-            </div>
-            <div class="col-md-6">
-                <img src="assets/img/services/birthday.jpg" alt>
-            </div>
-        </div>
-
-    </div>
-
-
-
-    <div class="schedule-area3 py-60">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="site-heading text-center wow fadeInDown" data-wow-delay=".25s">
-                        <h2 class="site-title">Our <span>Decoration</span> Services</h2>
-                        <div class="site-shadow-text">Services</div>
-                    </div>
-                </div>
-            </div>
-            <div class="tab-content wow fadeInUp" data-wow-delay=".25s" id="pills-tabContent-schedule">
-                <div class="tab-pane fade show active" role="tabpanel" tabindex="0">
-                    <div class="row g-4">
-                        <div class="col-lg-4">
-                            <div class="schedule-item">
-                                <div class="schedule-content-wrap">
-                                    <div class="schedule-img">
-                                        <img src="assets/img/services/birthday.jpg" alt>
-                                    </div>
-                                    <div class="schedule-content">
-                                        <div class="schedule-info">
-                                            <h4><a href="birthday-decoration.php">Birthday Decoration</a></h4>
-                                            <p>Make your birthday celebration unforgettable with our stunning birthday
-                                                decorations! We specialize..</p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <li class="row-right text-left parent-fly animMix">
-                                            <div class="product-price">
-                                                <span class="money"><a href="birthday-decoration.php"
-                                                        class="theme-btn">Know More<i
-                                                            class="fas fa-arrow-right"></i></a></span>
-                                                <span class="money"><a href="tel:<?php echo $num1;?>"> <img
-                                                            src="assets/call.png" alt=""></a></span>
-                                                <span class="money"><a
-                                                        href="https://api.whatsapp.com/send?phone=916375980595"> <img
-                                                            src="assets/whats.png" alt=""></a></span>
-                                            </div>
-                                        </li>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="schedule-item">
-                                <div class="schedule-content-wrap">
-                                    <div class="schedule-img">
-                                        <img src="assets/img/services/room.jpg" alt>
-                                    </div>
-                                    <div class="schedule-content">
-                                        <div class="schedule-info">
-                                            <h4><a href="room-decoration.php">Room Decoration </a></h4>
-                                            <p>Transform your space into a magical setting with our expert room
-                                                decoration services! Whether..</p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <li class="row-right text-left parent-fly animMix">
-                                            <div class="product-price">
-                                                <span class="money"><a href="room-decoration.php" class="theme-btn">Know
-                                                        More<i class="fas fa-arrow-right"></i></a></span>
-                                                <span class="money"><a href="tel:<?php echo $num1;?>"> <img
-                                                            src="assets/call.png" alt=""></a></span>
-                                                <span class="money"><a
-                                                        href="https://api.whatsapp.com/send?phone=916375980595"> <img
-                                                            src="assets/whats.png" alt=""></a></span>
-                                            </div>
-                                        </li>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="schedule-item">
-                                <div class="schedule-content-wrap">
-                                    <div class="schedule-img">
-                                        <img src="assets/img/services/welcome.jpg" alt>
-                                    </div>
-                                    <div class="schedule-content">
-                                        <div class="schedule-info">
-                                            <h4><a href="welcome-home-decoration.php">Welcome Home Decoration</a></h4>
-                                            <p>Welcome your loved ones home in style with our beautiful and personalized
-                                                "Welcome Home" decorations!</p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <li class="row-right text-left parent-fly animMix">
-                                            <div class="product-price">
-                                                <span class="money"><a href="welcome-home-decoration.php"
-                                                        class="theme-btn">Know More<i
-                                                            class="fas fa-arrow-right"></i></a></span>
-                                                <span class="money"><a href="tel:<?php echo $num1;?>"> <img
-                                                            src="assets/call.png" alt=""></a></span>
-                                                <span class="money"><a
-                                                        href="https://api.whatsapp.com/send?phone=916375980595"> <img
-                                                            src="assets/whats.png" alt=""></a></span>
-                                            </div>
-                                        </li>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="schedule-item">
-                                <div class="schedule-content-wrap">
-                                    <div class="schedule-img">
-                                        <img src="assets/img/services/baby.jpg" alt>
-                                    </div>
-                                    <div class="schedule-content">
-                                        <div class="schedule-info">
-                                            <h4><a href="baby-welcome-decoration.php">Baby Welcome Decoration</a></h4>
-                                            <p>Welcome your little one with a heartwarming Baby Welcome Decoration that
-                                                adds a touch of magic to..</p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <li class="row-right text-left parent-fly animMix">
-                                            <div class="product-price">
-                                                <span class="money"><a href="baby-welcome-decoration.php"
-                                                        class="theme-btn">Know More<i
-                                                            class="fas fa-arrow-right"></i></a></span>
-                                                <span class="money"><a href="tel:<?php echo $num1;?>"> <img
-                                                            src="assets/call.png" alt=""></a></span>
-                                                <span class="money"><a
-                                                        href="https://api.whatsapp.com/send?phone=916375980595"> <img
-                                                            src="assets/whats.png" alt=""></a></span>
-                                            </div>
-                                        </li>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="schedule-item">
-                                <div class="schedule-content-wrap">
-                                    <div class="schedule-img">
-                                        <img src="assets/img/services/shower.jpg" alt>
-                                    </div>
-                                    <div class="schedule-content">
-                                        <div class="schedule-info">
-                                            <h4><a href="baby-shower-decoration.php">Baby Shower Decoration</a></h4>
-                                            <p>Celebrate the joy of welcoming a new life with our enchanting Baby Shower
-                                                decorations! From..</p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <li class="row-right text-left parent-fly animMix">
-                                            <div class="product-price">
-                                                <span class="money"><a href="baby-shower-decoration.php"
-                                                        class="theme-btn">Know More<i
-                                                            class="fas fa-arrow-right"></i></a></span>
-                                                <span class="money"><a href="tel:<?php echo $num1;?>"> <img
-                                                            src="assets/call.png" alt=""></a></span>
-                                                <span class="money"><a
-                                                        href="https://api.whatsapp.com/send?phone=916375980595"> <img
-                                                            src="assets/whats.png" alt=""></a></span>
-                                            </div>
-                                        </li>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="schedule-item">
-                                <div class="schedule-content-wrap">
-                                    <div class="schedule-img">
-                                        <img src="assets/img/services/office.jpg" alt>
-                                    </div>
-                                    <div class="schedule-content">
-                                        <div class="schedule-info">
-                                            <h4><a href="office-decoration.php">Office Decoration</a></h4>
-                                            <p>Transform your workspace into a vibrant and inspiring environment with
-                                                our exceptional office..</p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <li class="row-right text-left parent-fly animMix">
-                                            <div class="product-price">
-                                                <span class="money"><a href="office-decoration.php"
-                                                        class="theme-btn">Know More<i
-                                                            class="fas fa-arrow-right"></i></a></span>
-                                                <span class="money"><a href="tel:<?php echo $num1;?>"> <img
-                                                            src="assets/call.png" alt=""></a></span>
-                                                <span class="money"><a
-                                                        href="https://api.whatsapp.com/send?phone=916375980595"> <img
-                                                            src="assets/whats.png" alt=""></a></span>
-                                            </div>
-                                        </li>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="schedule-item">
-                                <div class="schedule-content-wrap">
-                                    <div class="schedule-img">
-                                        <img src="assets/img/services/anni.jpg" alt>
-                                    </div>
-                                    <div class="schedule-content">
-                                        <div class="schedule-info">
-                                            <h4><a href="anniversary-decoration.php">Anniversary Decoration</a></h4>
-                                            <p>Celebrate your special milestone with our exquisite anniversary
-                                                decorations! Whether you're..</p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <li class="row-right text-left parent-fly animMix">
-                                            <div class="product-price">
-                                                <span class="money"><a href="anniversary-decoration.php"
-                                                        class="theme-btn">Know More<i
-                                                            class="fas fa-arrow-right"></i></a></span>
-                                                <span class="money"><a href="tel:<?php echo $num1;?>"> <img
-                                                            src="assets/call.png" alt=""></a></span>
-                                                <span class="money"><a
-                                                        href="https://api.whatsapp.com/send?phone=916375980595"> <img
-                                                            src="assets/whats.png" alt=""></a></span>
-                                            </div>
-                                        </li>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="schedule-item">
-                                <div class="schedule-content-wrap">
-                                    <div class="schedule-img">
-                                        <img src="assets/img/services/haldi.jpg" alt>
-                                    </div>
-                                    <div class="schedule-content">
-                                        <div class="schedule-info">
-                                            <h4><a href="haldi-decoration.php">Haldi Decoration</a></h4>
-                                            <p>Haldi ceremony decoration sets the perfect festive and vibrant mood for
-                                                pre-wedding celebrations.</p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <li class="row-right text-left parent-fly animMix">
-                                            <div class="product-price">
-                                                <span class="money"><a href="haldi-decoration.php"
-                                                        class="theme-btn">Know More<i
-                                                            class="fas fa-arrow-right"></i></a></span>
-                                                <span class="money"><a href="tel:<?php echo $num1;?>"> <img
-                                                            src="assets/call.png" alt=""></a></span>
-                                                <span class="money"><a
-                                                        href="https://api.whatsapp.com/send?phone=916375980595"> <img
-                                                            src="assets/whats.png" alt=""></a></span>
-                                            </div>
-                                        </li>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="schedule-item">
-                                <div class="schedule-content-wrap">
-                                    <div class="schedule-img">
-                                        <img src="assets/img/services/mehndi.jpg" alt>
-                                    </div>
-                                    <div class="schedule-content">
-                                        <div class="schedule-info">
-                                            <h4><a href="mehndi-decoration.php">Mehndi Decoration</a></h4>
-                                            <p>Mehandi decoration sets the perfect ambiance for a traditional and
-                                                vibrant pre-wedding celebration.</p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <li class="row-right text-left parent-fly animMix">
-                                            <div class="product-price">
-                                                <span class="money"><a href="mehndi-decoration.php"
-                                                        class="theme-btn">Know More<i
-                                                            class="fas fa-arrow-right"></i></a></span>
-                                                <span class="money"><a href="tel:<?php echo $num1;?>"> <img
-                                                            src="assets/call.png" alt=""></a></span>
-                                                <span class="money"><a
-                                                        href="https://api.whatsapp.com/send?phone=916375980595"> <img
-                                                            src="assets/whats.png" alt=""></a></span>
-                                            </div>
-                                        </li>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="schedule-item">
-                                <div class="schedule-content-wrap">
-                                    <div class="schedule-img">
-                                        <img src="assets/img/services/1st.jpg" alt>
-                                    </div>
-                                    <div class="schedule-content">
-                                        <div class="schedule-info">
-                                            <h4><a href="first-night-room-decoration.php">First Night Room
-                                                    Decoration</a></h4>
-                                            <p>Transform your first night room into a magical and romantic haven with
-                                                thoughtful decoration.</p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <li class="row-right text-left parent-fly animMix">
-                                            <div class="product-price">
-                                                <span class="money"><a href="first-night-room-decoration.php"
-                                                        class="theme-btn">Know More<i
-                                                            class="fas fa-arrow-right"></i></a></span>
-                                                <span class="money"><a href="tel:<?php echo $num1;?>"> <img
-                                                            src="assets/call.png" alt=""></a></span>
-                                                <span class="money"><a
-                                                        href="https://api.whatsapp.com/send?phone=916375980595"> <img
-                                                            src="assets/whats.png" alt=""></a></span>
-                                            </div>
-                                        </li>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container pt-5">
-
-        <div class="row">
-            <div class="col-md-6  ">
-                <img src="https://www.top1balloondecoration.com/assets/img/img-ai.jpeg" alt style="border-radius: 15px;">
-            </div>
-            <div class="col-md-6">
-                <h3>Why Choose a Professional Balloon Decoration Company?</h3>
-                <p class="pt-3">A reliable Balloon Decoration Company knows how to make ideas come to life. Professional
-                    decorators know which colors look best, how to use space well, and how to set up a room so that it
-                    appears great in person and in pictures. Instead of putting balloons anywhere,
-                    they all follow a precise design.</p>
-                <p>It also saves time and effort to use a Balloon
-                    Decoration Company that has been around for a while. The hosts can relax and enjoy the event because
-                    the setup, layout, and finishing touches all go flawlessly. This level of comfort and quality is
-                    what makes professional balloon decorations so popular for both business and personal events.</p>
-                <h3 class="pt-4">Balloon Decoration Service for Every Type of Event</h3>
-                <p class="pt-3">Versatility is one of the best things about hiring a professional Balloon Decoration
-                    Service. You may customise balloon decorations for nearly any event, such as:</p>
-                <ul style="list-style: disc;">
-                    <li><b>Birthday Parties:</b>Fun themes, cartoon ideas, and bright color schemes</li>
-                    <li> Fun themes, cartoon ideas, and bright color schemes</li>
-                    <li><b>Anniversaries and engagements:</b> classy designs with soothing colors and high-quality
-                        finishes</li>
-                    <li><b>Baby showers and welcome parties:</b> pastel colors and fun balloon designs</li>
-                    <li><b>Corporate Events:</b> Designs that are clean, professional, and match the company colors</li>
-                </ul>
-                <p>A good balloon decoration company makes sure that every occasion feels different instead of the same.
-                    The decorations fit the theme of the party and make people feel the way you want them to.</p>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="container pt-5">
-
-        <div class="row">
-            <div class="col-md-6  ">
-                <h3>Searching for Balloon Decoration Service Near Me</h3>
-                <p class="pt-3">A lot of individuals choose to look for a Balloon Decoration Service near me since local
-                    decorators can work together more quickly and know more about the surrounding locations. Local teams
-                    may easily go to the site, see how much room is needed, and come up with designs that fit the space
-                    best.</p>
-                <p>Choosing a Balloon Decoration Service near me also gives you more options. When the service provider
-                    is nearby, it's a lot easier to make last-minute changes, set things up quickly, and get things done
-                    on time. This is one of the key reasons individuals use local pros for significant events.</p>
-                <h3 class="pt-5">Benefits of Hiring a Local Balloon Decoration Company</h3>
-                <p class="pt-3">Most of the time, when individuals look for a balloon decoration company near me, they
-                    want one that is reliable and easy to talk to. Local decorators can reply more quickly, offer
-                    packages that fit your budget, and come up with ideas that are tailored to your needs.</p>
-                <p>A balloon decoration firm nearby also knows what people like and what is popular in the area. This
-                    helps make styles of decor that are new and interesting instead of boring. Local businesses combine
-                    originality and usefulness for everything from small house parties to big events.</p>
-
-
-            </div>
-            <div class="col-md-6">
-                <img src="assets/img/birthday/32.jpeg" alt style="border-radius: 15px;">
-            </div>
-        </div>
-
-    </div>
-
-    <!-- <div class="container pt-5">-->
-
-    <!--       <div class="row">-->
-    <!--            <div class="col-md-6  ">-->
-
-
-    <!--           </div>-->
-    <!--          <div class="col-md-6">-->
-    <!--               <h2>Searching for Balloon Decoration Service Near Me</h2>-->
-    <!--          <p>A lot of individuals choose to look for a Balloon Decoration Service near me since local decorators can work together more quickly and know more about the surrounding locations. Local teams may easily go to the site, see how much room is needed, and come up with designs that fit the space best.</p>-->
-    <!--             <p>Choosing a Balloon Decoration Service near me also gives you more options. When the service provider is nearby, it's a lot easier to make last-minute changes, set things up quickly, and get things done on time. This is one of the key reasons individuals use local pros for significant events.</p>-->
-    <!--        </div>-->
-    <!--     </div>-->
-
-    <!--</div>-->
-    <!-- <div class="container pt-5">-->
-
-    <!--       <div class="row">-->
-    <!--            <div class="col-md-6  ">-->
-    <!--         <h2>Benefits of Hiring a Local Balloon Decoration Company</h2>-->
-    <!--        <p>Most of the time, when individuals look for a balloon decoration company near me, they want one that is reliable and easy to talk to. Local decorators can reply more quickly, offer packages that fit your budget, and come up with ideas that are tailored to your needs.</p>-->
-    <!--           <p>A balloon decoration firm nearby also knows what people like and what is popular in the area. This helps make styles of decor that are new and interesting instead of boring. Local businesses combine originality and usefulness for everything from small house parties to big events.</p>-->
-    <!--           </div>-->
-    <!--          <div class="col-md-6">-->
-
-    <!--        </div>-->
-    <!--     </div>-->
-
-    <!--</div>-->
-    <!-- Decoration Images start -->
-    <div class="testimonial-area bg py-90">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="site-heading text-center wow fadeInDown" data-wow-delay=".25s">
-                        <h2 class="site-title">Our <span>Birthday</span> Decoration</h2>
-                        <div class="site-shadow-text">Birthday</div>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-slider owl-carousel owl-theme wow fadeInUp" data-wow-delay=".25s">
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/birthday/1.jpg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/birthday/2.jpg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/birthday/888.jpg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/birthday/999.jpg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/birthday/23.jpeg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/birthday/29.jpeg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/birthday/31.jpeg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/birthday/32.jpeg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/birthday/34.jpeg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/birthday/37.jpeg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/birthday/31.jpeg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/birthday/43.jpeg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/birthday/44.jpeg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/birthday/32.jpeg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/birthday/60.jpeg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/birthday/3.jpg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/birthday/4.jpg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/birthday/a3.jpg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/birthday/a4.jpg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/birthday/65.jpeg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/birthday/a5.jpg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/birthday/a6.jpg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-
-
-
-            </div>
-        </div>
-    </div>
-    <div class="container pt-5">
-        <div class="row">
-            <div class="col-md-6  ">
-                <h3>Quality, Safety, and Long-Lasting Décor</h3>
-                <p class="pt-3">A professional Balloon Decoration Service employs high-quality balloons that keep their
-                    shape and color all day. Using high-quality materials makes sure that the decorations look good from
-                    start to finish, even for long parties.</p>
-                <p>A professional Balloon Decoration Company also respects safety rules, especially while working
-                    indoors. The hosts and guests don't have to worry about anything if the decorations are put up
-                    correctly, the backdrops are secure, and the decorations are placed safely.</p>
-
-                <h3 class="pt-5">Budget-Friendly and Trendy Balloon Decoration Options</h3>
-                <p class="pt-3">Balloon decorations are no longer just for fancy gatherings. A good Balloon Decoration
-                    Service can help you stay inside your budget without sacrificing style. There is something for
-                    everyone, from simple settings to high-end designs.</p>
-                <p>A professional Balloon Decoration Company now often offers modern styles, including LED balloons,
-                    metallic finishes, custom name backdrops, and themed arches. These things give the event a trendy
-                    and stylish look that will make it stand out on social media and in pictures.</p>
-            </div>
-            <div class="col-md-6">
-                <img src="https://www.top1balloondecoration.com/assets/img/img-ai01.jpeg" alt="" style="border-radius: 15px;">
-            </div>
-        </div>
-
-    </div>
-    <div class="container pt-5">
-
-        <div class="row">
-            <div class="col-md-6  ">
-
-                <img src="https://www.top1balloondecoration.com/assets/img/img-ai03.jpeg" alt="" style="border-radius: 15px;">
-            </div>
-            <div class="col-md-6">
-                <h3>Personalised Designs That Match Your Vision</h3>
-                <p class="pt-3">Every party has a narrative, and a good Balloon Decoration Service tells that tale
-                    through the decorations. Professionals pay close attention to what clients want and come up with
-                    useful, imaginative designs. This unique touch makes sure that the decoration feels real instead of
-                    like a copy.</p>
-                <p>People commonly search for "Balloon Decoration Service near me" because they want decorators who are
-                    easy to get in touch with and willing to talk. Clear communication helps the client get the exact
-                    look and feel they want.</p>
-                <h3 class="pt-5">Final Thoughts</h3>
-                <p class="pt-3">A professional balloon decoration service is the best method to make any event, big or
-                    small, even better. <a href="https://www.top1balloondecoration.com/contact.php"><b>Choosing the
-                            appropriate professionals</b></a>
-                    makes all the difference when looking for a reliable Balloon Decoration Company, a reliable Balloon
-                    Decoration Service near me, or a reliable Balloon Decoration Company near me. Balloon decorations
-                    can make even the simplest occasions special.
-                    Guests will remember them long after the party is over because of the imaginative designs,
-                    high-quality materials, and easy execution.</p>
-
-            </div>
-        </div>
-
-    </div>
-    <!-- <div class="container pt-5">-->
-    <!--     <div class="row">-->
-    <!--            <div class="col-md-6  ">-->
-    <!--      <h2>Personalised Designs That Match Your Vision</h2>-->
-    <!--      <p>Every party has a narrative, and a good Balloon Decoration Service tells that tale through the decorations. Professionals pay close attention to what clients want and come up with useful, imaginative designs. This unique touch makes sure that the decoration feels real instead of like a copy.</p>-->
-    <!--         <p>People commonly search for "Balloon Decoration Service near me" because they want decorators who are easy to get in touch with and willing to talk. Clear communication helps the client get the exact look and feel they want.</p>-->
-    <!--          <p>A professional balloon decoration service is the best method to make any event, big or small, even better. <a href="https://www.top1balloondecoration.com/contact.php">Choosing the appropriate professionals</a> -->
-    <!--     makes all the difference when looking for a reliable Balloon Decoration Company, a reliable Balloon Decoration Service near me, or a reliable Balloon Decoration Company near me. Balloon decorations can make even the simplest occasions special.-->
-    <!--    Guests will remember them long after the party is over because of the imaginative designs, high-quality materials, and easy execution.</p>  </div>-->
-    <!--          <div class="col-md-6">-->
-
-    <!--        </div>-->
-    <!--     </div>-->
-
-    <!--</div> -->
-    <!--<div class="container pt-5">-->
-
-    <!--       <div class="row">-->
-    <!--            <div class="col-md-6  ">-->
-
-
-    <!--           </div>-->
-    <!--          <div class="col-md-6">-->
-    <!--               <h2>Final Thoughts</h2>-->
-    <!--               <p>A professional balloon decoration service is the best method to make any event, big or small, even better. <a href="https://www.top1balloondecoration.com/contact.php">Choosing the appropriate professionals</a> -->
-    <!--     makes all the difference when looking for a reliable Balloon Decoration Company, a reliable Balloon Decoration Service near me, or a reliable Balloon Decoration Company near me. Balloon decorations can make even the simplest occasions special.-->
-    <!--    Guests will remember them long after the party is over because of the imaginative designs, high-quality materials, and easy execution.</p>-->
-    <!--        </div>-->
-    <!--     </div>-->
-
-    <!--</div>-->
-
-    <div class="testimonial-area bg py-90">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="site-heading text-center wow fadeInDown" data-wow-delay=".25s">
-                        <h2 class="site-title">Our <span>Anniversary</span> Decoration</h2>
-                        <div class="site-shadow-text">Anniversary</div>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-slider owl-carousel owl-theme wow fadeInUp" data-wow-delay=".25s">
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/anni/1.jpg" alt style="border-radius: 15px;">
-                        </div>
-
-                    </div>
-                </div>
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/anni/2.jpg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/anni/50.jpeg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/anni/3.webp" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/anni/4.webp" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/anni/5.jpg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/anni/6.jpg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/anni/7.jpg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-            </div>
-        </div>
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div class="testimonial-area bg py-90">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="site-heading text-center wow fadeInDown" data-wow-delay=".25s">
-                        <h2 class="site-title">Our <span>Office</span> Decoration</h2>
-                        <div class="site-shadow-text">Office</div>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-slider owl-carousel owl-theme wow fadeInUp" data-wow-delay=".25s">
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/office/1.jpg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/office/2.jpg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/office/3.jpg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/office/4.jpg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="testimonial-area bg py-90">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="site-heading text-center wow fadeInDown" data-wow-delay=".25s">
-                        <h2 class="site-title">Our <span>Welcome Home</span> Decoration</h2>
-                        <div class="site-shadow-text">Welcome</div>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-slider owl-carousel owl-theme wow fadeInUp" data-wow-delay=".25s">
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/home/1.jpg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/home/2.jpg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/home/51.jpeg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/home/3.webp" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/home/4.jpg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="testimonial-area bg py-90">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="site-heading text-center wow fadeInDown" data-wow-delay=".25s">
-                        <h2 class="site-title">Our <span>Room</span> Decoration</h2>
-                        <div class="site-shadow-text">Room</div>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-slider owl-carousel owl-theme wow fadeInUp" data-wow-delay=".25s">
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/room/1.jpg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/room/2.jpg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/room/666.jpeg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/room/3.webp" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/room/4.jpg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="testimonial-area bg py-90">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="site-heading text-center wow fadeInDown" data-wow-delay=".25s">
-                        <h2 class="site-title">Our <span>Baby Welcome</span> Decoration</h2>
-                        <div class="site-shadow-text">Baby</div>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-slider owl-carousel owl-theme wow fadeInUp" data-wow-delay=".25s">
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/baby/1.jpg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/baby/2.jpg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/baby/80.jpeg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/baby/81.jpeg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/baby/777.jpeg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/baby/3.jpg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/baby/4.jpg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="testimonial-area bg py-90">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="site-heading text-center wow fadeInDown" data-wow-delay=".25s">
-                        <h2 class="site-title">Our <span>Baby Shower</span> Decoration</h2>
-                        <div class="site-shadow-text">Shower</div>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-slider owl-carousel owl-theme wow fadeInUp" data-wow-delay=".25s">
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/shower/1.jpg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/shower/2.jpg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/shower/100.jpeg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/shower/3.jpg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-single">
-                    <div class="testimonial-content">
-                        <div>
-                            <img src="assets/img/shower/4.jpg" alt style="border-radius: 15px;">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- 
-         <div class="testimonial-area bg py-90">
-            <div class="container">
-               <div class="row">
-                  <div class="col-lg-12">
-                     <div class="site-heading text-center wow fadeInDown" data-wow-delay=".25s">
-                        <h2 class="site-title">Our <span>Anniversary</span> Decoration</h2>
-                        <div class="site-shadow-text">Anniversary</div>
-                     </div>
-                  </div>
-               </div>
-               <div class="testimonial-slider owl-carousel owl-theme wow fadeInUp" data-wow-delay=".25s">
-                  <div class="testimonial-single">
-                     <div class="testimonial-content">
-                        <div>
-                           <img src="assets/img/anni/1.jpg" alt style="border-radius: 15px;">
-                        </div>
-                     </div>
-                  </div>
-                  <div class="testimonial-single">
-                     <div class="testimonial-content">
-                        <div>
-                           <img src="assets/img/anni/2.jpg" alt style="border-radius: 15px;">
-                        </div>
-                     </div>
-                  </div>
-                  <div class="testimonial-single">
-                     <div class="testimonial-content">
-                        <div>
-                           <img src="assets/img/anni/3.webp" alt style="border-radius: 15px;">
-                        </div>
-                     </div>
-                  </div>
-                  <div class="testimonial-single">
-                     <div class="testimonial-content">
-                        <div>
-                           <img src="assets/img/anni/4.webp" alt style="border-radius: 15px;">
-                        </div>
-                     </div>
-                  </div>
-                  <div class="testimonial-single">
-                     <div class="testimonial-content">
-                        <div>
-                           <img src="assets/img/anni/5.jpg" alt style="border-radius: 15px;">
-                        </div>
-                     </div>
-                  </div>
-
-                  <div class="testimonial-single">
-                     <div class="testimonial-content">
-                        <div>
-                           <img src="assets/img/anni/6.jpg" alt style="border-radius: 15px;">
-                        </div>
-                     </div>
-                  </div>
- <div class="testimonial-single">
-                     <div class="testimonial-content">
-                        <div>
-                           <img src="assets/img/anni/7.jpg" alt style="border-radius: 15px;">
-                        </div>
-                     </div>
-                  </div>
-
-
-
-
-               </div>
-            </div>
-         </div> -->
-    <!-- Decoration Images end -->
-
-
-    <div class="contact-wrapper">
-        <div class="row g-4">
-            <div class="col-lg-5">
-                <div class="contact-img">
-                    <img src="assets/img/contact/01.jpg" alt>
-                </div>
-            </div>
-            <div class="col-lg-7">
-                <div class="contact-form">
-                    <div class="contact-form-header">
-                        <h2>Get In Touch</h2>
-                        <p>Reach out to us today to discuss your ideas, get a custom quote, or schedule a consultation.
-                            Let’s make your event unforgettable with our stunning balloon decorations!</p>
-                    </div>
-                    <form method="post" action="https://live.themewild.com/eventu/assets/php/contact.php"
-                        id="contact-form">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="input-group">
-                                    <span class="input-group-text"><i class="far fa-user-tie"></i></span>
-                                    <input type="text" class="form-control" name="name" placeholder="Your Name"
-                                        required>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="input-group">
-                                    <span class="input-group-text"><i class="far fa-envelope"></i></span>
-                                    <input type="email" class="form-control" name="email" placeholder="Your Email"
-                                        required>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="input-group">
-                            <span class="input-group-text"><i class="far fa-pen"></i></span>
-                            <input type="text" class="form-control" name="subject" placeholder="Your Subject" required>
-                        </div>
-                        <div class="input-group textarea">
-                            <span class="input-group-text"><i class="far fa-comment-lines"></i></span>
-                            <textarea name="message" cols="30" rows="5" class="form-control"
-                                placeholder="Write Your Message"></textarea>
-                        </div>
-                        <button type="submit" class="theme-btn">Send
-                            Message <i class="far fa-paper-plane"></i></button>
-                        <div class="col-md-12 mt-3">
-                            <div class="form-messege text-success"></div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <?php include('footer.php'); ?>
+<p><strong>Meta Title: </strong>Dehradun Call Girls Service - Verified Escorts | Real Photos | COD 2026
+</p>
+<p><strong>Meta description: </strong>Premium Call Girls in Dehradun with genuine profiles &amp; cash
+    payment. Fast hotel/home delivery. Affordable rates from ₹1999. Complete privacy guaranteed.</p>
+<h2><strong>Premium Call Girls in Dehradun - No.1 Trusted Escort Service in Dehradun (2026
+        Updated)</strong></h2>
+<p>Are you searching for genuine <strong>call girls in Dehradun</strong> with complete privacy, cash on
+    delivery, and real photos? Welcome to the most professional and verified <strong>Dehradun escort
+        service</strong>. We provide hot, sexy, and high-class <strong>Dehradun call girls</strong> who are ready to
+    offer you an unforgettable experience 24 hours a day, 7 days a week.</p>
+<p>We have <strong>2100+ verified hot and sexy call girls</strong> with real WhatsApp numbers and mobile
+    numbers. Whether you want short-term fun, full night enjoyment, girlfriend experience, or VIP luxury service -
+    we have every type of girl available for incall and outcall in Dehradun.</p>
+<p><strong>Book Call Girls in Dehradun</strong> today with <strong>Cash Payment | Free Home &amp; Hotel
+        Delivery | No Advance | 100% Satisfaction Guaranteed</strong>.</p>
+<h2><strong>Why Choose Our Dehradun Call Girls Service?</strong></h2>
+<p>In a city like Dehradun, finding a reliable and safe <strong>call girl service</strong> can be
+    difficult. Many agencies make false promises, send fake profiles, or ask for advance payment. We are different.
+</p>
+<p>Here’s why thousands of clients trust us as the <strong>No.1 Call Girls in Dehradun</strong>:</p>
+<ul>
+    <li>100% Genuine &amp; Verified Profiles with Real Photos and Videos</li>
+    <li>Complete Privacy and Confidentiality</li>
+    <li>Cash On Delivery (COD) - Pay only when you meet the girl</li>
+    <li>Instant Booking via WhatsApp - Response within 5 minutes</li>
+    <li>Affordable Rates Starting from Just ₹2499</li>
+    <li>Available at All 5-Star Hotels, Home, and Private Locations</li>
+    <li>Young College Girls, Housewives, Models, Russian, Punjabi, and VIP Escorts</li>
+    <li>Professional Behaviour and Hygienic Girls</li>
+    <li>Up to 50% Discount on First Booking</li>
+</ul>
+<p>Our agency has been serving clients in Dehradun for years with full honesty and dedication. We focus
+    on your satisfaction and safety above everything.</p>
+<h2><strong>Our Wide Range of Dehradun Call Girls Profiles</strong></h2>
+<p>We maintain a huge collection of beautiful and skilled girls so you can choose exactly what you
+    desire:</p>
+<ul>
+    <li><strong>Housewife Call Girls in Dehradun</strong> - Experienced, mature, and very cooperative
+    </li>
+    <li><strong>College Girl Call Girls in Dehradun</strong> - Young, fresh, and energetic (18+ only)
+    </li>
+    <li><strong>Russian Call Girls in Dehradun</strong> - Tall, fair, and extremely hot</li>
+    <li><strong>Punjabi Bhabhi Call Girls</strong> - Curvy, bold, and full of passion</li>
+    <li><strong>VIP High-Class Model Call Girls</strong> - Glamorous and sophisticated</li>
+    <li><strong>Independent Call Girls in Dehradun</strong> - Direct contact, no middlemen</li>
+    <li><strong>Air Hostess Call Girls</strong> - Stylish and well-mannered</li>
+    <li><strong>Mature MILF &amp; Aunty Call Girls</strong> - Expert in pleasure</li>
+    <li><strong>Desi Village &amp; North-East Call Girls</strong> - Natural beauty and sweet nature</li>
+    <li><strong>Teenage (18+) &amp; Luxury Spa Girls</strong> - Perfect for massage and sensual fun</li>
+</ul>
+<p>Every girl’s profile is updated regularly with real images, age, height, figure, and services
+    offered.</p>
+<h2><strong>Services Offered by Our Dehradun Call Girls</strong></h2>
+<p>We offer a complete range of services to fulfill all your fantasies:</p>
+<ul>
+    <li>Short Time Service (1-2 Hours)</li>
+    <li>Full Night Service (8-10 Hours)</li>
+    <li>Girlfriend Experience (GFE) - Kissing, hugging, romance</li>
+    <li>Overnight Stay with Breakfast</li>
+    <li>Hotel Room Service (Incall)</li>
+    <li>Home &amp; Office Outcall Service</li>
+    <li>Cash Payment Service</li>
+    <li>Dating &amp; Romantic Meetings</li>
+    <li>Couple-Friendly Services</li>
+    <li>Body Massage &amp; Sensual Massage</li>
+    <li>Role Play &amp; Fantasy Fulfilment</li>
+    <li>Travel Companion for Business Trips</li>
+    <li>Corporate Event Escorts</li>
+    <li>VIP &amp; High-Profile Services</li>
+</ul>
+<p>All services are performed with full consent, hygiene, and professionalism.</p>
+<h2><strong>Local Areas We Serve - Call Girls in Dehradun Near Me</strong></h2>
+<p>Our <strong>Dehradun call girls</strong> provide fast delivery (20-40 minutes) in every major
+    location of Dehradun:</p>
+<ul>
+    <li>Call Girls in Rajpur Road</li>
+    <li>Call Girls in Mussoorie Road</li>
+    <li>Call Girls in Sahastradhara Road</li>
+    <li>Call Girls in Chakrata Road</li>
+    <li>Call Girls in GMS Road</li>
+    <li>Call Girls in Ballupur Chowk</li>
+    <li>Call Girls in Dalanwala</li>
+    <li>Call Girls in Kaulagarh Road</li>
+    <li>Call Girls in Vasant Vihar</li>
+    <li>Call Girls in Indira Nagar</li>
+    <li>Call Girls in Nehru Colony</li>
+    <li>Call Girls in Hathibarkala</li>
+    <li>Call Girls in Prem Nagar</li>
+    <li>Call Girls in Majra</li>
+    <li>Call Girls in Paltan Bazaar</li>
+    <li>Call Girls in Clock Tower (Ghanta Ghar)</li>
+    <li>Call Girls in ISBT Dehradun</li>
+    <li>Call Girls in Prince Chowk</li>
+    <li>Call Girls in Astley Hall</li>
+    <li>Call Girls in Subhash Road</li>
+    <li>Call Girls in Race Course</li>
+    <li>Call Girls in Doon University Area</li>
+    <li>Call Girls in Graphic Era University Area</li>
+    <li>Call Girls in Dehradun Airport Area</li>
+    <li>Call Girls in Bindal Bridge</li>
+    <li>Call Girls in Rishikesh Road</li>
+    <li>Call Girls in Haridwar Road</li>
+    <li>Call Girls in Shimla Bypass</li>
+    <li>Call Girls in Canal Road</li>
+    <li>Call Girls in Uttarakhand Secretariat Area</li>
+</ul>
+<p><strong>We also deliver directly to all major 5-star hotels in Dehradun, including:</strong></p>
+<ul>
+    <li>Hyatt Regency Dehradun</li>
+    <li>JW Marriott Dehradun</li>
+    <li>The Lemon Tree</li>
+    <li>Sterling Dehradun</li>
+    <li>Ramada by Wyndham</li>
+    <li>And all other 3-star &amp; 4-star hotels</li>
+</ul>
+<h2><strong>Dehradun Call Girls Rate Chart 2026 (Cash Payment)</strong></h2>
+<p><strong>Service Type</strong> | <strong>Duration</strong> | <strong>Starting Price</strong>Short
+    Time | 1-2 Hours | ₹2499Extended Short Time | 3-4 Hours | ₹3999Full Night | 8-10 Hours |
+    ₹5999Russian / Model / VIP | Full Night | ₹8999Overnight GFE Package | 12+ Hours | ₹11999Extra Night
+    / Day | Per 24 Hours | ₹14999</p>
+<p>Prices are negotiable according to girl's category and your requirements. No hidden charges. Full
+    rate transparency before booking.</p>
+<h2><strong>How to Book Call Girls in Dehradun - Simple 3-Step Process</strong></h2>
+<ol>
+    <li><strong>WhatsApp Us</strong> - Send your requirements, location, and time</li>
+    <li><strong>Choose Your Girl</strong> - We will send real photos and details of available girls</li>
+    <li><strong>Meet &amp; Pay</strong> - Girl reaches your place, you meet, then pay in cash</li>
+</ol>
+<p>No advance payment. No registration. 100% safe and confidential process.</p>
+<h2><strong>Benefits of Booking Through Us</strong></h2>
+<ul>
+    <li>Verified profiles reduce the risk of fraud</li>
+    <li>Real-time availability updates</li>
+    <li>Professional and polite behaviour guaranteed</li>
+    <li>High-quality girls with excellent communication skills</li>
+    <li>Complete discretion - We never share client information</li>
+    <li>24/7 customer support</li>
+    <li>Regular clients get special discounts and priority booking</li>
+</ul>
+<h2><strong>Safety Guidelines for Customers</strong></h2>
+<p>Your safety and privacy are our topmost priority. We strongly recommend:</p>
+<ul>
+    <li>Always verify the girl’s profile and photos before finalising</li>
+    <li>Meet only at your chosen location (hotel/home)</li>
+    <li>Never share unnecessary personal or financial details</li>
+    <li>Prefer cash payment at the meeting</li>
+    <li>Choose girls with good reviews and ratings</li>
+    <li>All communication should be done only through our official WhatsApp</li>
+</ul>
+<h2><strong>Special Services &amp; Packages in Dehradun</strong></h2>
+<ul>
+    <li><strong>Long-Duration Packages</strong> for businessmen and tourists</li>
+    <li><strong>Weekend Special Packages</strong></li>
+    <li><strong>Romantic Dinner Date + Night Stay</strong></li>
+    <li><strong>Sensual Body Massage with Happy Ending</strong></li>
+    <li><strong>BDSM &amp; Fantasy Role Play</strong> (on request)</li>
+    <li><strong>Couple Services</strong> for married couples seeking extra spice</li>
+</ul>
+<h2><strong>Why Call Girls in Dehradun Are So Popular?</strong></h2>
+<p>Dehradun is a beautiful city with pleasant weather, surrounded by hills. Many people visit here for
+    business, education, tourism, or pilgrimage. After a long day of work or travel, spending quality time with a
+    beautiful, understanding, and passionate <strong>Dehradun call girl</strong> becomes the best way to relax and
+    enjoy.</p>
+<p>Our girls are not just physically attractive but also well-mannered, educated, and know how to give
+    emotional as well as physical satisfaction.</p>
+<h3><strong>Frequently Asked Questions (FAQs)</strong></h3>
+<p><strong>Q1. Is cash on delivery available for call girls in Dehradun?</strong></p>
+<p>Yes, full COD available. Pay only after meeting the girl.</p>
+<p><strong>Q2. Do you provide real photos and WhatsApp numbers?</strong></p>
+<p>Yes, all profiles come with real, recent photos. We share WhatsApp after initial confirmation.</p>
+<p><strong>Q3. Are college girls and housewives available?</strong></p>
+<p>Yes, both are available in good numbers.</p>
+<p><strong>Q4. Is service available at 5-star hotels?</strong></p>
+<p>Yes, direct room delivery at all major hotels in Dehradun.</p>
+<p><strong>Q5. What is the minimum charge?</strong></p>
+<p>Starting from ₹2499 for a short time.</p>
+<p><strong>Q6. Do you serve in Mussoorie or nearby areas?</strong></p>
+<p>Currently, we serve only inside Dehradun city limits.</p>
+<p><strong>Q7. Is complete privacy guaranteed?</strong></p>
+<p>Yes, 100% privacy. We value our clients’ trust.</p>
+<h2><strong>Final Words - Ready for an Unforgettable Experience?</strong></h2>
+<p>If you are in Dehradun and looking for real fun, relaxation, and ultimate pleasure, then don’t waste
+    time searching random numbers. Contact the most trusted <strong>call girls in Dehradun</strong> agency today.
+</p>
+<p>We promise you the best service, the hottest girls, complete satisfaction, and memories that will
+    last a long time.</p>
+<p><strong>Book Now - Call / WhatsApp Anytime</strong></p>
+<p><strong>Cash Payment | Free Delivery | 24×7 Service | Real Photos</strong></p>
+<p>Get ready to enjoy the most beautiful and professional <strong>Dehradun escorts</strong> and
+    <strong>call girls in Dehradun</strong> who know exactly how to treat a man like a king.
+</p>
+<p><strong>Call Girls in Dehradun - Your Secret Pleasure Partner in the Capital of Uttarakhand!</strong>
+</p>
