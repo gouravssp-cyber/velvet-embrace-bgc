@@ -9,6 +9,7 @@ import Blog from "./pages/Blog";
 import Demo from "./components/Demo";
 import NotFound from "./pages/NotFound";
 import React, { useState } from "react";
+import Blognew from "./pages/Blognew";
 
 const queryClient = new QueryClient();
 
@@ -85,9 +86,10 @@ const App = () => {
 
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<HomeRoute />} />
-            <Route path="/blog" element={<Blog />} />
-            <Route path="/blog/:postId" element={<Blog />} />
+            <Route path="/" element={<Index />} />
+            <Route path="/dehradun-call" element={<Blognew />} />
+            <Route path="/mussoorie-weekend" element={<Blog />} />
+            {/* <Route path="/blog/:postId" element={<Blognew />} /> */}
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
