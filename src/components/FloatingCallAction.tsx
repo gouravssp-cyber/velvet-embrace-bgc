@@ -32,7 +32,7 @@ const FloatingCallAction = () => {
 
   return (
     <div
-      className={`fixed right-6 bottom-8 z-50 transition-all duration-300 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12 pointer-events-none"
+      className={`fixed right-6 bottom-8 z-50 transition-all duration-300 opacity-100 translate-y-0 
         }`}
     >
       <div className="flex flex-col items-center gap-3">

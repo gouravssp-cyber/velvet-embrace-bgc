@@ -1,0 +1,150 @@
+import CTASection from "@/components/CTASection";
+import FloatingCallAction from "@/components/FloatingCallAction";
+import FooterSection from "@/components/FooterSection";
+import Navbar from "@/components/Navbar";
+import CompanionsSection from "@/components/CompanionsSection";
+import Girlscard from "@/components/Girlscard";
+import Moregirlscard from "@/components/Moregirlscard";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { Helmet, HelmetProvider } from "react-helmet-async";
+
+const Blogfour = () => {
+    return (
+        <HelmetProvider>
+            <Helmet>
+                <title>Partner se Sex par Openly Baat Kaise Kare? Guide</title>
+                <meta name="description" content="Partner se sex par openly baat kaise karein? Healthy relationship ke liye
+                                    communication zaroori hai. Janein kuch easy tips aur sahi tarika." />
+                <meta property="og:title" content="Partner se Sex par Openly Baat Kaise Kare? Guide" />
+                <meta property="og:description" content="Partner se sex par openly baat kaise karein? Healthy relationship ke liye
+                                    communication zaroori hai. Janein kuch easy tips aur sahi tarika." />
+                <link rel="canonical" href="/blog" />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Partner se Sex par Openly Baat Kaise Kare? Guide" />
+                <meta name="twitter:description" content="Partner se sex par openly baat kaise karein? Healthy relationship ke liye
+                                    communication zaroori hai. Janein kuch easy tips aur sahi tarika." />
+
+                <style>
+                    {`
+            p {
+              font-family: Arial, sans-serif;
+              font-size: 16px;
+              line-height: 1.6;
+              color: #fff;
+              margin-bottom: 12px;
+            }
+
+            strong {
+              font-weight: bold;
+              color: #fff;
+            }
+
+            h2 {
+              font-size: 24px;
+              font-weight: 600;
+              margin: 20px 0 10px;
+              color: #fff;
+            }
+
+            a {
+              color: #007BFF;
+              text-decoration: none;
+            }
+
+            a:hover {
+              text-decoration: underline;
+              color: #0056b3;
+            }
+
+            ol {
+              margin: 10px 0 10px 20px;
+              padding-left: 20px;
+            }
+
+            li {
+              margin-bottom: 6px;
+              font-size: 15px;
+            }
+          `}
+                </style>
+            </Helmet>
+
+            <main className="bg-background min-h-screen px-4 py-16 text-primary">
+                <Navbar />
+                {/* <DehradunCall /> */}
+
+                <Girlscard />
+                <CompanionsSection />
+                <Moregirlscard />
+
+                <section className="mx-auto max-w-3xl py-12">
+                    <h2 className="mb-6 text-3xl font-semibold">Know about Our Services</h2>
+                    <Accordion type="single" collapsible className="space-y-4">
+                        <AccordionItem value="service-1">
+                            <AccordionTrigger>Luxury companion experiences</AccordionTrigger>
+                            <AccordionContent>                                
+                                <h1><strong>Partner Ke Saath Openly Sex Topics Par Baat Kaise Kare?</strong></h1>
+                                <p>Hey guys! Kaise ho aap?</p>
+                                <p>Aaj hum baat karne wale hain ek aise topic par jisse hum sab deal karte hain, but openly baat karne
+                                    mein thoda... <em>hichkichahat</em> mehsoos hoti hai. Ji haan, hum baat kar rahe hain apne <a
+                                        href="https://babycallgirl.com/"><strong >partner ke saath sex par open
+                                            conversation ki</strong></a>.</p>
+                                <p>Kai baar, hum sochte hain ke, "Arey, yeh sab to apne aap ho jata hai, baat karne ki kya zaroorat?"
+                                    But sach yeh hai ki acha communication hi acha intimacy ka foundation hota hai. Apni desires, expectations, and
+                                    comforts ke baare mein baat karna ek healthy relationship ke liye kitna important hai.</p>
+                                <p>Agar aap bhi soch rahe hain ki inn conversations ko kaise start karein, toh tension mat lijiye! Yahan
+                                    hain kuch easy-peasy tips jo definitely help karengi.</p>
+                                <h2>1. Sahi Samay aur Setting Chuno (Timing is Everything!)</h2>
+                                <p>Jaise hi aap dinner khatam karke sofa par baithe hain, directly "Hey, tumhe kya pasand hai bed par?"
+                                    type question thode odd lagega.</p>
+                                <ul>
+                                    <li><strong>Aisa karo: </strong>Kisi aise peaceful moment ka wait karo jab dono relaxed ho. Maybe a
+                                        lazy Sunday morning, ya phir bed par sone se pehle. Ghar mein aisa koi private corner choose karo jahan
+                                        aapko disturbance na ho.</li>
+                                    <li><strong>Aisa mat karo: </strong>Family function ke beech mein, ya phir jab wo office se tired
+                                        hokar aaye, tab serious conversation shuru mat karo.</li>
+                                </ul>
+                                <h2>2. "I Feel" Statements Use Karo (Blame Game Nahin!)</h2>
+                                <p>Apni feelings ke baare mein baat karo, partner ko blame dene se bacho. Yeh game-changer hai!</p>
+                                <ul>
+                                    <li><strong>Aisa karo:</strong> "Mujhe aisa feel hota hai jab hum aisa karte hain..." ya "Main
+                                        chahta/chahti hoon ke hum try karein..."</li>
+                                    <li><strong>Aisa mat karo: </strong>"Tum kabhi aisa nahi karte!" ya "Tumhara problem yeh hai ki..."
+                                    </li>
+                                </ul>
+                                <h2>3. Positive Reinforcement Diya Karo (Appreciation is Key!)</h2>
+                                <p>Jab aapka partner kuch acha kare, ya phir aapki baat maane, unko appreciate karna na bhoolo. Positive
+                                    feedback milega toh wo bhi khul kar apni baat rakh payenge.</p>
+                                <p>Quote: <em>"Appreciation ek superpower hai. Ye aapke partner ko feel dilati hai ki unki awaz suni
+                                    jaati hai aur unki feelings matter karti hain."</em></p>
+                                <h2>4. Easy Questions Se Shuruvaat Karo</h2>
+                                <p>Seedha kisi wild fantasy par nahi koodna. Start with lighter, more general topics.</p>
+                                <p><strong>Kaise Shuru Karein? (Start With)</strong> | <strong>Kya Nahin Kahein? (Avoid
+                                    This)</strong>"Hum next weekend kuch try kar sakte hain?" | "Tumhari ex ke saath kaisa hota
+                                    tha?""Tumhe kabse acha lagta hai?" | "Tum iss movie ke actor jaisa kyun nahi ho?""Kya main kuch aisa
+                                    karun jo tumhe zyada pasand ho?" | "Tum hamesha itne tired kyun rehte ho?"</p>
+                                <h2>5. Listener Bano (Sunna Seekho)</h2>
+                                <p>Conversation ek traffic signal nahi hai jo sirf green light ke liye ho. Apne partner ko poori baat
+                                    kehne do, unki baat ka intezaar karo, and unki feelings ko samjho. Judge mat karo.</p>
+                                <h2><strong>Final Thought:</strong></h2>
+                                <p>Yaad rakhiye, intimacy sirf physical nahi hoti, emotional bhi hoti hai. Apne partner ke saath khul
+                                    kar baat karne ki aadat aap dono ke rishte ko ek naya confidence degi.</p>
+                                <p>Aur haan, agar aap asli connection ki talash mein hain, toh temporary solutions jaise <a
+                                    href="https://callgirlindehradunescort.info/"><strong >call girl service
+                                        in Dehradun </strong></a>ya kisi aur city mein, koi jawab nahi hain. Wo ek professional transaction hai,
+                                    jahan emotional safety aur trust nahi hota. Asli sukh aur gehrai toh ek aise rishte mein hai jahan aap poori
+                                    tarah se khul sakte hain aur safe mehsoos kar sakte hain.</p>
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+                </section>
+
+                <CTASection />
+                <FooterSection />
+                <FloatingCallAction />
+            </main>
+        </HelmetProvider>
+    );
+};
+
+export default Blogfour;

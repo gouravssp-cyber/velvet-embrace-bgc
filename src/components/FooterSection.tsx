@@ -9,11 +9,36 @@ const FooterSection = () => {
             <a href="#" className="text-2xl font-display italic text-foreground">
               ( ๏ 人 ๏ ) <span className="gold-gradient-text">Call Girl in Dehradun</span>
             </a>
-
           </div>
+          <div className="flex flex-col gap-6">
+            <h2>Blogs</h2>
 
-         
+            <a href="/dehradun-call-girls" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors">
+              Dehradun Call Girls Service
+            </a>
+
+            <a href="/mussoorie-weekend-call-girls" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors">
+              Mussoorie Weekend Call Girls
+            </a>
+
+            <a href="/dehradun-2026-college-girls-short-vs-full-night-offer" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors">
+              2026 College Girls Short vs Full Night Offer
+            </a>
+
+            <a href="/sexy-call-girl-in-dehradun-24/7-Delivery-and-Cash" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors">
+              24/7 Delivery and Cash Service
+            </a>
+
+            <a href="/dehradun-call-girls-service-real-photos-COD" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors">
+              Real Photos & COD Service
+            </a>
+
+            <a href="/partner-se-sex-par-openly-baat-kaise-kare-guide" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors">
+              Partner Se Sex Par Baat Kaise Kare (Guide)
+            </a>
+          </div>
         </div>
+
 
         <div className="mt-8 pt-8 border-t border-border/50 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs font-body text-muted-foreground">

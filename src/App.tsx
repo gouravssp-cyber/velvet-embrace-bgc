@@ -10,6 +10,10 @@ import Demo from "./components/Demo";
 import NotFound from "./pages/NotFound";
 import React, { useState } from "react";
 import Blognew from "./pages/Blognew";
+import Blogtwo from "./pages/Blogtwo";
+import Blogthree from "./pages/Blogthree";
+import Blogfour from "./pages/Blogfour";
+import Blogfive from "./pages/Blogfive";
 
 const queryClient = new QueryClient();
 
@@ -87,8 +91,12 @@ const App = () => {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Index />} />
-            <Route path="/dehradun-call" element={<Blognew />} />
-            <Route path="/mussoorie-weekend" element={<Blog />} />
+            <Route path="/dehradun-call-girls" element={<Blognew />} />
+            <Route path="/mussoorie-weekend-call-girls" element={<Blog />} />
+            <Route path="/dehradun-2026-college-girls-short-vs-full-night-offer" element={<Blogtwo />} />
+            <Route path="/sexy-call-girl-in-dehradun-24/7-Delivery-and-Cash" element={<Blogthree />} />
+            <Route path="/dehradun-call-girls-service-real-photos-COD" element={<Blogfour />} />
+            <Route path="/partner-se-sex-par-openly-baat-kaise-kare-guide" element={<Blogfive />} />
             {/* <Route path="/blog/:postId" element={<Blognew />} /> */}
             <Route path="*" element={<NotFound />} />
           </Routes>

@@ -11,6 +11,8 @@ import SeoSection from "@/components/SeoSection";
 import FloatingCallAction from "@/components/FloatingCallAction";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import Girlscard from "@/components/Girlscard";
+import Moregirlscard from "@/components/Moregirlscard";
 
 const Index = () => {
   return (
@@ -30,7 +32,8 @@ const Index = () => {
         <Navbar />
         <HeroSection />
         <CompanionsSection />
-
+        <Girlscard />        
+        <Moregirlscard />
 
         {/* Rate Chart Section */}
         <motion.div
