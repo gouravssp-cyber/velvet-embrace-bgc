@@ -2,19 +2,7 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 
-const links = [
-  { label: "About", href: "#about" },
-  { label: "Companions", href: "#companions" },
-  { label: "Experience", href: "#experience" },
-  {
-    label: "Blogs",
-    children: [
-      { label: "Dehradun Call", href: "/dehradun-call" },
-      { label: "Mussoorie Weekend", href: "/mussoorie-weekend" },
-    ],
-  },
-  { label: "Contact", href: "#contact" },
-];
+
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -39,45 +27,13 @@ const Navbar = () => {
           ( ๏ 人 ๏ ) <span className="gold-gradient-text">Call Girl in Dehradun</span>
         </a>
 
-        {/* Desktop links */}
-        <div className="hidden md:flex items-center gap-10">
-          {links.map((l) => (
-            <div key={l.label} className="relative group">
-              {l.children ? (
-                <>
-                  <span className="text-xs tracking-luxury uppercase font-body text-muted-foreground hover:text-primary cursor-pointer">
-                    {l.label}
-                  </span>
-
-                  {/* Dropdown */}
-                  <div className="absolute left-0 mt-2 pt-2 hidden group-hover:block">
-                    <div className="bg-background border border-border/30 rounded-md shadow-lg min-w-[180px]">
-                      {l.children.map((child) => (
-                        <a key={child.label} href={child.href} className="block px-4 py-2 text-xs hover:bg-muted">
-                          {child.label}
-                        </a>
-                      ))}
-                    </div>
-                  </div>
-                </>
-              ) : (
-                <a
-                  href={l.href}
-                  className="text-xs tracking-luxury uppercase font-body text-muted-foreground hover:text-primary transition-colors duration-300"
-                >
-                  {l.label}
-                </a>
-              )}
-            </div>
-          ))}
-
           <a
             href="tel:+918057744241"
             className="border border-primary px-6 py-2.5 text-xs tracking-luxury uppercase font-body text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
           >
-            Book Now
+            Call now
           </a>
-        </div>
+        
 
         {/* Mobile menu toggle */}
         <button onClick={() => setOpen(!open)} className="md:hidden text-foreground">
@@ -92,40 +48,12 @@ const Navbar = () => {
           animate={{ opacity: 1, y: 0 }}
           className="md:hidden bg-background/95 backdrop-blur-md border-b border-border/30 px-6 pb-6"
         >
-          {links.map((l) => (
-            <div key={l.label}>
-              {l.children ? (
-                <>
-                  <div className="py-3 text-sm uppercase text-muted-foreground">
-                    {l.label}
-                  </div>
-                  {l.children.map((child) => (
-                    <a
-                      key={child.label}
-                      href={child.href}
-                      onClick={() => setOpen(false)}
-                      className="block pl-4 py-2 text-sm text-muted-foreground hover:text-primary"
-                    >
-                      {child.label}
-                    </a>
-                  ))}
-                </>
-              ) : (
-                <a
-                  href={l.href}
-                  onClick={() => setOpen(false)}
-                  className="block py-3 text-sm uppercase text-muted-foreground hover:text-primary"
-                >
-                  {l.label}
-                </a>
-              )}
-            </div>
-          ))}
+          
           <a
             href="tel:+918057744241"
             className="mt-3 block border border-primary px-6 py-3 text-center text-xs tracking-luxury uppercase font-body text-primary"
           >
-            Book Now
+            Call now
           </a>
         </motion.div>
       )}

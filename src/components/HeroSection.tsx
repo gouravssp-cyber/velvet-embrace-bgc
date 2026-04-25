@@ -47,7 +47,7 @@ const HeroSection = () => {
           loop
           muted
           playsInline
-          poster={heroPoster}
+          
           preload="metadata"
           className="h-[130%] w-full object-cover"
           width={1920}
@@ -58,59 +58,7 @@ const HeroSection = () => {
         <div className="luxury-overlay absolute inset-0" />
       </motion.div>
 
-      <motion.div style={{ opacity }} className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center">
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          className="mb-6 text-sm tracking-luxury uppercase text-gold-light font-body"
-        >
-          Premium Escort & Companion Listings
-        </motion.p>
-
-        <motion.h1
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.5 }}
-          className="mb-6 text-5xl md:text-7xl lg:text-8xl font-display italic font-light leading-tight"
-        >
-          <span className="gold-gradient-text">Discover</span>{" "}
-          <span className="text-foreground">Dehradun's</span>
-          <br />
-          <span className="text-foreground">Elite Escorts</span>
-        </motion.h1>
-
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.9 }}
-          className="mb-10 max-w-lg text-lg font-light text-muted-foreground font-serif tracking-wide"
-        >
-          BabyCallGirl.com connects adults with exclusive companion profiles,
-          featuring verified listings, discreet booking options, and premium
-          escort services tailored for sophisticated private experiences.
-        </motion.p>
-
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 1.2 }}
-          className="flex flex-col sm:flex-row gap-4"
-        >
-          <a
-            href="#companions"
-            className="border border-primary bg-primary px-10 py-4 text-sm font-body tracking-luxury uppercase text-primary-foreground transition-all duration-300 hover:bg-gold-dark"
-          >
-            Explore Listings
-          </a>
-          <a
-            href="#companions"
-            className="border border-border px-10 py-4 text-sm font-body tracking-luxury uppercase text-foreground transition-all duration-300 hover:border-primary hover:text-primary"
-          >
-            View Profiles
-          </a>
-        </motion.div>
-      </motion.div>
+  
 
       <motion.div
         initial={{ opacity: 0 }}
