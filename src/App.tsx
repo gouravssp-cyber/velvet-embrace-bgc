@@ -14,6 +14,7 @@ import Blogtwo from "./pages/Blogtwo";
 import Blogthree from "./pages/Blogthree";
 import Blogfour from "./pages/Blogfour";
 import Blogfive from "./pages/Blogfive";
+import Blogsix from "./pages/Blogsix";
 
 const queryClient = new QueryClient();
 
@@ -80,7 +81,6 @@ const HomeRoute = () => {
 };
 
 /* ---------------- App Root ---------------- */
-
 const App = () => {
   return (
     <QueryClientProvider client={queryClient}>
@@ -97,6 +97,7 @@ const App = () => {
             <Route path="/sexy-call-girl-in-dehradun-24/7-Delivery-and-Cash" element={<Blogthree />} />
             <Route path="/dehradun-call-girls-service-real-photos-COD" element={<Blogfour />} />
             <Route path="/partner-se-sex-par-openly-baat-kaise-kare-guide" element={<Blogfive />} />
+            <Route path="/call-girls-in-dehradun-2026–premium-dehradun-call-girls-service-with-real-photos" element={<Blogsix />} />
             {/* <Route path="/blog/:postId" element={<Blognew />} /> */}
             <Route path="*" element={<NotFound />} />
           </Routes>
