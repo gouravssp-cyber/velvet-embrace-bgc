@@ -27,6 +27,50 @@ const Index = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Call Girls in Dehradun Cash Payment Quick Delivery ₹1999" />
         <meta name="twitter:description" content="No.1 Call Girls in Dehradun - COD Incall/Outcall, Real Photos, Low Rates from ₹2999, 24/7 Free Delivery & Full Privacy Guaranteed!" />
+ <style>
+                            {`
+                    p {
+                      font-family: Arial, sans-serif;
+                      font-size: 16px;
+                      line-height: 1.6;
+                      color: #fff;
+                      margin-bottom: 12px;
+                    }
+        
+                    strong {
+                      font-weight: bold;
+                      color: #fff;
+                    }
+        
+                    h2 {
+                      font-size: 24px;
+                      font-weight: 600;
+                      margin: 20px 0 10px;
+                      color: #fff;
+                    }
+        
+                    a {
+                      color: #007BFF;
+                      text-decoration: none;
+                    }
+        
+                    a:hover {
+                      text-decoration: underline;
+                      color: #0056b3;
+                    }
+        
+                    ol {
+                      margin: 10px 0 10px 20px;
+                      padding-left: 20px;
+                    }
+        
+                    li {
+                      margin-bottom: 6px;
+                      font-size: 15px;
+                    }
+                  `}
+                        </style>
+                    
       </Helmet>
       <main className="bg-background min-h-screen">
         <Navbar />
@@ -115,7 +159,7 @@ const Index = () => {
 
         <Accordion type="single" collapsible className="space-y-4 mt-16">
           <AccordionItem value="experience" className="overflow-hidden rounded-3xl border border-border/60 bg-muted/10">
-            <AccordionTrigger className="px-6">Experience</AccordionTrigger>
+            <AccordionTrigger className="px-6">Trusted Luxury Companionship & Private Booking Support</AccordionTrigger>
             <AccordionContent className="px-6">
               <ExperienceSection />
             </AccordionContent>
