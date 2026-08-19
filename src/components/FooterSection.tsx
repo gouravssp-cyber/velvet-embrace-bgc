@@ -5,10 +5,37 @@ const FooterSection = () => {
     <footer className="px-6 py-12 md:px-12 bg-jet">
       <div className="mx-auto max-w-6xl">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
-          <div>
-            <a href="#" className="text-2xl font-display italic text-foreground">
+          <div className="flex flex-col gap-2">
+            <a
+              href="#"
+              className="w-fit text-2xl font-display italic text-foreground transition-opacity hover:opacity-80"
+            >
               ( ๏ 人 ๏ ) <span className="gold-gradient-text">Call Girl in Dehradun</span>
             </a>
+
+            <div className="flex items-start gap-2 text-sm leading-relaxed text-muted-foreground">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.8"
+                className="mt-0.5 h-4 w-4 shrink-0 text-primary"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11Z"
+                />
+                <circle cx="12" cy="10" r="2.2" />
+              </svg>
+
+              <span>
+                Saharanpur Rd, Laal Pul, Patel Nagar,
+                <br />
+                Dehradun, Uttarakhand 248001
+              </span>
+            </div>
           </div>
           <div className="flex flex-col gap-6">
             <h2>Blogs</h2>
