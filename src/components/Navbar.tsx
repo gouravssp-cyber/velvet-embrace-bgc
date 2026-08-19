@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
 
 
 
@@ -27,12 +27,15 @@ const Navbar = () => {
           ( ๏ 人 ๏ ) <span className="gold-gradient-text">Call Girl in Dehradun</span>
         </a>
 
-          <a
-            href="tel:+918057744241"
-            className="border border-primary px-6 py-2.5 text-xs tracking-luxury uppercase font-body text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-          >
-            Call now
-          </a>
+          
+
+<a
+  href="tel:+918057744241"
+  className="inline-flex items-center gap-2 border border-primary px-6 py-2.5 text-xs tracking-luxury uppercase font-body text-primary transition-all duration-300 hover:bg-primary hover:text-primary-foreground"
+>
+  <Phone className="h-3.5 w-3.5" strokeWidth={1.8} />
+  <span>80577 44241</span>
+</a>
         
 
         {/* Mobile menu toggle */}
