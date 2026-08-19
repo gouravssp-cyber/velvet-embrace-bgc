@@ -69,7 +69,7 @@ const MussoorieWeekendBlog = () => {
                     </motion.div>
 
                     <motion.a
-                        href="https://wa.me/918449203324"
+                        href="https://wa.me/918449203324?text=Hi%2C%20I%20would%20like%20to%20enquire%20about%20a%20booking"
                         target="_blank"
                         initial={{ opacity: 0, y: 30 }}
                         animate={{ opacity: 1, y: 0 }}

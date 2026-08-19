@@ -221,7 +221,7 @@ const Index = () => {
             {/* Call to Action Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
               <a
-                href="https://wa.me/918057744241" // ← Replace with your WhatsApp number
+                href="https://wa.me/918449203324?text=Hi%2C%20I%20would%20like%20to%20enquire%20about%20a%20booking" // ← Replace with your WhatsApp number
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center bg-green-600 hover:bg-green-700 text-white font-medium text-lg px-10 py-4 rounded-2xl transition-all duration-300"

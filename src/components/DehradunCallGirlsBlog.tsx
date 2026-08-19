@@ -94,7 +94,7 @@ const DehradunCallGirlsBlog: React.FC = () => {
             </div>
 
             <a
-              href="https://wa.me/918057744241"
+              href="https://wa.me/918449203324?text=Hi%2C%20I%20would%20like%20to%20enquire%20about%20a%20booking"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-10 inline-flex items-center justify-center bg-primary hover:bg-primary/90 text-primary-foreground text-xl font-semibold px-12 py-6 rounded-3xl gap-3 shadow-2xl shadow-primary/30 transition-all active:scale-95"
@@ -304,7 +304,7 @@ const DehradunCallGirlsBlog: React.FC = () => {
             </div>
           </div>
           <a
-            href="https://wa.me/918057744241"
+            href="https://wa.me/918449203324?text=Hi%2C%20I%20would%20like%20to%20enquire%20about%20a%20booking"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-12 inline-flex bg-primary text-primary-foreground text-2xl font-semibold px-16 py-7 rounded-3xl items-center gap-4 hover:shadow-2xl transition-all"
