@@ -49,7 +49,7 @@ const FloatingCallAction = () => {
         </a>
 
         <a
-          href="https://api.whatsapp.com/send?phone=918057744241"
+          href="https://wa.me/918057744241?text=Hi%2C%20I%20would%20like%20to%20enquire%20about%20a%20booking"
           className="flex items-center justify-center w-14 h-14 bg-[#25D366] text-white rounded-full shadow-lg hover:shadow-2xl transition-all duration-300 group hover:scale-110 active:scale-95"
           title="Chat on WhatsApp"
           aria-label="Chat on WhatsApp"
